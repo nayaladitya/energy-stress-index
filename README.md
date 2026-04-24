@@ -40,6 +40,8 @@ The usual debate about long-run energy is framed as *how much oil is left*. CESI
 
 <br>
 
+<br>
+
 <p align="center">
   <img src="paper/figures/CESI_WTI_divergence.png" alt="CESI minus WTI divergence, 1980–2023" width="780">
 </p>
@@ -52,7 +54,7 @@ The usual debate about long-run energy is framed as *how much oil is left*. CESI
   <img src="paper/figures/CESI_decomposition.png" alt="CESI decomposition into EROI, reserves-to-production, and demand" width="780">
 </p>
 
-<p align="center">Breaks energy system stress into EROI, reserves-to-production, and demand.</p>
+<p align="center">Shows the breakdown of energy system stress into EROI, reserves-to-production, and demand.</p>
 
 <br>
 

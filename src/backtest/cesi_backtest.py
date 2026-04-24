@@ -429,7 +429,7 @@ plt.rcParams.update({
 def _save(fig, name, dpi=300):
     for d in FIG_DIRS:
         fig.savefig(f'{d}/{name}.png', dpi=dpi, bbox_inches='tight',
-                    pad_inches=0.15, facecolor='white')
+                    pad_inches=0.35, facecolor='white')
 
 
 # ── Figure 1 (hero): CESI vs WTI — both normalised, single axis ──
@@ -460,7 +460,7 @@ ax.annotate('Post-2005 divergence:\nstress keeps rising as\noil prices cycle',
             ha='left', va='top',
             arrowprops=dict(arrowstyle='->', color='#5D4037', lw=1.5))
 
-ax.set_title('Energy Stress Rising Despite Oil Price Cycles',
+ax.set_title('Energy Stress Keeps Climbing While Oil Prices Stall',
              fontsize=22, fontweight='bold', loc='left', pad=16, color='#0B0B0B')
 ax.set_ylabel('Index (1980 = 100)', fontsize=16, fontweight='bold')
 ax.set_xlabel('Year', fontsize=16, fontweight='bold')
@@ -487,12 +487,13 @@ ax.fill_between(YEARS, 0, div_vals, color=PAL_DIV, alpha=0.18, linewidth=0)
 ax.plot(YEARS, div_vals, color=PAL_DIV, linewidth=2.8)
 ax.axhline(0, color='#333333', linewidth=1)
 
-ax.set_title('CESI–WTI Divergence Over Time', fontsize=17,
+ax.set_title('CESI–WTI Divergence Over Time', fontsize=18,
              fontweight='bold', loc='left', pad=14, color='#111111')
-ax.set_ylabel('CESI − WTI (normalised, 1980 = 100)', fontsize=13, fontweight='bold')
+ax.set_ylabel('CESI − WTI (1980 = 100)', fontsize=14, fontweight='bold')
+ax.set_xlabel('Year', fontsize=14, fontweight='bold')
 ax.set_xlim(1980, 2023)
 ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
-ax.tick_params(labelsize=11)
+ax.tick_params(labelsize=12)
 ax.grid(True, which='major', axis='y', alpha=0.18, linewidth=0.8)
 for spine in ('top', 'right'):
     ax.spines[spine].set_visible(False)
@@ -515,12 +516,13 @@ ax.plot(YEARS, [E_norm[y]    for y in YEARS], color=PAL_DEMAND, linewidth=3.0,
         label='Energy demand')
 ax.axhline(100, color='#888888', linewidth=0.8, linestyle='--', alpha=0.6)
 
-ax.set_title('Decomposition of Energy System Stress', fontsize=17,
+ax.set_title('Decomposition of Energy System Stress', fontsize=18,
              fontweight='bold', loc='left', pad=14, color='#111111')
-ax.set_ylabel('Component (1980 = 100)', fontsize=13, fontweight='bold')
+ax.set_ylabel('Component (1980 = 100)', fontsize=14, fontweight='bold')
+ax.set_xlabel('Year', fontsize=14, fontweight='bold')
 ax.set_xlim(1980, 2023)
 ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
-ax.tick_params(labelsize=11)
+ax.tick_params(labelsize=12)
 ax.grid(True, which='major', axis='y', alpha=0.18, linewidth=0.8)
 for spine in ('top', 'right'):
     ax.spines[spine].set_visible(False)
