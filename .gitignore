@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# large raw inputs are fetched from sources listed in data/raw/SOURCES.md
+data/raw/*
+!data/raw/SOURCES.md
+
+# local editor state
+.vscode/
+.idea/

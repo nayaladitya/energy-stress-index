@@ -1,0 +1,1989 @@
+year,scenario,indicator,value
+1980,C1 EROI freeze,Energy CPI,92.013
+1981,C1 EROI freeze,Energy CPI,88.257
+1982,C1 EROI freeze,Energy CPI,84.415
+1983,C1 EROI freeze,Energy CPI,86.188
+1984,C1 EROI freeze,Energy CPI,90.521
+1985,C1 EROI freeze,Energy CPI,90.242
+1986,C1 EROI freeze,Energy CPI,95.500
+1987,C1 EROI freeze,Energy CPI,121.246
+1988,C1 EROI freeze,Energy CPI,108.631
+1989,C1 EROI freeze,Energy CPI,111.743
+1990,C1 EROI freeze,Energy CPI,107.648
+1991,C1 EROI freeze,Energy CPI,109.385
+1992,C1 EROI freeze,Energy CPI,111.303
+1993,C1 EROI freeze,Energy CPI,113.481
+1994,C1 EROI freeze,Energy CPI,118.102
+1995,C1 EROI freeze,Energy CPI,124.277
+1996,C1 EROI freeze,Energy CPI,130.315
+1997,C1 EROI freeze,Energy CPI,136.165
+1998,C1 EROI freeze,Energy CPI,140.957
+1999,C1 EROI freeze,Energy CPI,142.776
+2000,C1 EROI freeze,Energy CPI,153.488
+2001,C1 EROI freeze,Energy CPI,153.376
+2002,C1 EROI freeze,Energy CPI,156.357
+2003,C1 EROI freeze,Energy CPI,149.632
+2004,C1 EROI freeze,Energy CPI,158.465
+2005,C1 EROI freeze,Energy CPI,166.203
+2006,C1 EROI freeze,Energy CPI,171.606
+2007,C1 EROI freeze,Energy CPI,177.756
+2008,C1 EROI freeze,Energy CPI,183.414
+2009,C1 EROI freeze,Energy CPI,178.875
+2010,C1 EROI freeze,Energy CPI,191.946
+2011,C1 EROI freeze,Energy CPI,192.648
+2012,C1 EROI freeze,Energy CPI,199.473
+2013,C1 EROI freeze,Energy CPI,197.923
+2014,C1 EROI freeze,Energy CPI,210.388
+2015,C1 EROI freeze,Energy CPI,224.432
+2016,C1 EROI freeze,Energy CPI,230.218
+2017,C1 EROI freeze,Energy CPI,234.730
+2018,C1 EROI freeze,Energy CPI,252.262
+2019,C1 EROI freeze,Energy CPI,258.466
+2020,C1 EROI freeze,Energy CPI,248.174
+2021,C1 EROI freeze,Energy CPI,275.517
+2022,C1 EROI freeze,Energy CPI,298.055
+2023,C1 EROI freeze,Energy CPI,325.841
+2024,C1 EROI freeze,Energy CPI,326.548
+2025,C1 EROI freeze,Energy CPI,329.331
+2026,C1 EROI freeze,Energy CPI,332.143
+2027,C1 EROI freeze,Energy CPI,334.985
+2028,C1 EROI freeze,Energy CPI,337.858
+2029,C1 EROI freeze,Energy CPI,340.761
+2030,C1 EROI freeze,Energy CPI,343.695
+2031,C1 EROI freeze,Energy CPI,346.660
+2032,C1 EROI freeze,Energy CPI,349.656
+2033,C1 EROI freeze,Energy CPI,352.685
+2034,C1 EROI freeze,Energy CPI,355.746
+2035,C1 EROI freeze,Energy CPI,358.839
+2036,C1 EROI freeze,Energy CPI,361.965
+2037,C1 EROI freeze,Energy CPI,365.125
+2038,C1 EROI freeze,Energy CPI,368.318
+2039,C1 EROI freeze,Energy CPI,371.545
+2040,C1 EROI freeze,Energy CPI,374.807
+2041,C1 EROI freeze,Energy CPI,378.104
+2042,C1 EROI freeze,Energy CPI,381.436
+2043,C1 EROI freeze,Energy CPI,384.803
+2044,C1 EROI freeze,Energy CPI,388.206
+2045,C1 EROI freeze,Energy CPI,391.646
+2046,C1 EROI freeze,Energy CPI,395.122
+2047,C1 EROI freeze,Energy CPI,398.635
+2048,C1 EROI freeze,Energy CPI,402.186
+2049,C1 EROI freeze,Energy CPI,405.775
+2050,C1 EROI freeze,Energy CPI,409.403
+1980,C1 EROI freeze,Food,50.861
+1981,C1 EROI freeze,Food,49.067
+1982,C1 EROI freeze,Food,47.222
+1983,C1 EROI freeze,Food,48.075
+1984,C1 EROI freeze,Food,50.150
+1985,C1 EROI freeze,Food,50.016
+1986,C1 EROI freeze,Food,52.517
+1987,C1 EROI freeze,Food,64.505
+1988,C1 EROI freeze,Food,58.680
+1989,C1 EROI freeze,Food,60.126
+1990,C1 EROI freeze,Food,58.223
+1991,C1 EROI freeze,Food,59.031
+1992,C1 EROI freeze,Food,59.922
+1993,C1 EROI freeze,Food,60.930
+1994,C1 EROI freeze,Food,63.062
+1995,C1 EROI freeze,Food,65.892
+1996,C1 EROI freeze,Food,68.640
+1997,C1 EROI freeze,Food,71.286
+1998,C1 EROI freeze,Food,73.442
+1999,C1 EROI freeze,Food,74.258
+2000,C1 EROI freeze,Food,79.032
+2001,C1 EROI freeze,Food,78.983
+2002,C1 EROI freeze,Food,80.303
+2003,C1 EROI freeze,Food,77.319
+2004,C1 EROI freeze,Food,81.235
+2005,C1 EROI freeze,Food,84.641
+2006,C1 EROI freeze,Food,87.006
+2007,C1 EROI freeze,Food,89.685
+2008,C1 EROI freeze,Food,92.139
+2009,C1 EROI freeze,Food,90.171
+2010,C1 EROI freeze,Food,95.819
+2011,C1 EROI freeze,Food,96.120
+2012,C1 EROI freeze,Food,99.047
+2013,C1 EROI freeze,Food,98.383
+2014,C1 EROI freeze,Food,103.698
+2015,C1 EROI freeze,Food,109.634
+2016,C1 EROI freeze,Food,112.064
+2017,C1 EROI freeze,Food,113.953
+2018,C1 EROI freeze,Food,121.248
+2019,C1 EROI freeze,Food,123.812
+2020,C1 EROI freeze,Food,119.554
+2021,C1 EROI freeze,Food,130.816
+2022,C1 EROI freeze,Food,139.984
+2023,C1 EROI freeze,Food,151.154
+2024,C1 EROI freeze,Food,151.437
+2025,C1 EROI freeze,Food,152.548
+2026,C1 EROI freeze,Food,153.669
+2027,C1 EROI freeze,Food,154.801
+2028,C1 EROI freeze,Food,155.944
+2029,C1 EROI freeze,Food,157.098
+2030,C1 EROI freeze,Food,158.262
+2031,C1 EROI freeze,Food,159.437
+2032,C1 EROI freeze,Food,160.624
+2033,C1 EROI freeze,Food,161.822
+2034,C1 EROI freeze,Food,163.030
+2035,C1 EROI freeze,Food,164.251
+2036,C1 EROI freeze,Food,165.483
+2037,C1 EROI freeze,Food,166.726
+2038,C1 EROI freeze,Food,167.982
+2039,C1 EROI freeze,Food,169.249
+2040,C1 EROI freeze,Food,170.528
+2041,C1 EROI freeze,Food,171.819
+2042,C1 EROI freeze,Food,173.122
+2043,C1 EROI freeze,Food,174.438
+2044,C1 EROI freeze,Food,175.766
+2045,C1 EROI freeze,Food,177.107
+2046,C1 EROI freeze,Food,178.460
+2047,C1 EROI freeze,Food,179.826
+2048,C1 EROI freeze,Food,181.205
+2049,C1 EROI freeze,Food,182.597
+2050,C1 EROI freeze,Food,184.002
+1980,C1 EROI freeze,Fertiliser,41.770
+1981,C1 EROI freeze,Fertiliser,39.988
+1982,C1 EROI freeze,Fertiliser,38.170
+1983,C1 EROI freeze,Fertiliser,39.009
+1984,C1 EROI freeze,Fertiliser,41.062
+1985,C1 EROI freeze,Fertiliser,40.929
+1986,C1 EROI freeze,Fertiliser,43.426
+1987,C1 EROI freeze,Fertiliser,55.736
+1988,C1 EROI freeze,Fertiliser,49.688
+1989,C1 EROI freeze,Fertiliser,51.177
+1990,C1 EROI freeze,Fertiliser,49.218
+1991,C1 EROI freeze,Fertiliser,50.048
+1992,C1 EROI freeze,Fertiliser,50.966
+1993,C1 EROI freeze,Fertiliser,52.010
+1994,C1 EROI freeze,Fertiliser,54.226
+1995,C1 EROI freeze,Fertiliser,57.194
+1996,C1 EROI freeze,Fertiliser,60.103
+1997,C1 EROI freeze,Fertiliser,62.926
+1998,C1 EROI freeze,Fertiliser,65.243
+1999,C1 EROI freeze,Fertiliser,66.124
+2000,C1 EROI freeze,Fertiliser,71.320
+2001,C1 EROI freeze,Fertiliser,71.265
+2002,C1 EROI freeze,Fertiliser,72.714
+2003,C1 EROI freeze,Fertiliser,69.448
+2004,C1 EROI freeze,Fertiliser,73.740
+2005,C1 EROI freeze,Fertiliser,77.508
+2006,C1 EROI freeze,Fertiliser,80.145
+2007,C1 EROI freeze,Fertiliser,83.150
+2008,C1 EROI freeze,Fertiliser,85.920
+2009,C1 EROI freeze,Fertiliser,83.698
+2010,C1 EROI freeze,Fertiliser,90.103
+2011,C1 EROI freeze,Fertiliser,90.447
+2012,C1 EROI freeze,Fertiliser,93.801
+2013,C1 EROI freeze,Fertiliser,93.038
+2014,C1 EROI freeze,Fertiliser,99.174
+2015,C1 EROI freeze,Fertiliser,106.105
+2016,C1 EROI freeze,Fertiliser,108.968
+2017,C1 EROI freeze,Fertiliser,111.201
+2018,C1 EROI freeze,Fertiliser,119.900
+2019,C1 EROI freeze,Fertiliser,122.985
+2020,C1 EROI freeze,Fertiliser,117.869
+2021,C1 EROI freeze,Fertiliser,131.480
+2022,C1 EROI freeze,Fertiliser,142.746
+2023,C1 EROI freeze,Fertiliser,156.688
+2024,C1 EROI freeze,Fertiliser,157.044
+2025,C1 EROI freeze,Fertiliser,158.443
+2026,C1 EROI freeze,Fertiliser,159.858
+2027,C1 EROI freeze,Fertiliser,161.289
+2028,C1 EROI freeze,Fertiliser,162.735
+2029,C1 EROI freeze,Fertiliser,164.197
+2030,C1 EROI freeze,Fertiliser,165.676
+2031,C1 EROI freeze,Fertiliser,167.170
+2032,C1 EROI freeze,Fertiliser,168.682
+2033,C1 EROI freeze,Fertiliser,170.209
+2034,C1 EROI freeze,Fertiliser,171.754
+2035,C1 EROI freeze,Fertiliser,173.316
+2036,C1 EROI freeze,Fertiliser,174.895
+2037,C1 EROI freeze,Fertiliser,176.492
+2038,C1 EROI freeze,Fertiliser,178.106
+2039,C1 EROI freeze,Fertiliser,179.738
+2040,C1 EROI freeze,Fertiliser,181.388
+2041,C1 EROI freeze,Fertiliser,183.056
+2042,C1 EROI freeze,Fertiliser,184.743
+2043,C1 EROI freeze,Fertiliser,186.449
+2044,C1 EROI freeze,Fertiliser,188.173
+2045,C1 EROI freeze,Fertiliser,189.917
+2046,C1 EROI freeze,Fertiliser,191.680
+2047,C1 EROI freeze,Fertiliser,193.462
+2048,C1 EROI freeze,Fertiliser,195.264
+2049,C1 EROI freeze,Fertiliser,197.087
+2050,C1 EROI freeze,Fertiliser,198.929
+1980,C1 EROI freeze,Real Wages,84.791
+1981,C1 EROI freeze,Real Wages,84.013
+1982,C1 EROI freeze,Real Wages,83.191
+1983,C1 EROI freeze,Real Wages,83.574
+1984,C1 EROI freeze,Real Wages,84.485
+1985,C1 EROI freeze,Real Wages,84.428
+1986,C1 EROI freeze,Real Wages,85.491
+1987,C1 EROI freeze,Real Wages,90.124
+1988,C1 EROI freeze,Real Wages,87.961
+1989,C1 EROI freeze,Real Wages,88.512
+1990,C1 EROI freeze,Real Wages,87.785
+1991,C1 EROI freeze,Real Wages,88.096
+1992,C1 EROI freeze,Real Wages,88.435
+1993,C1 EROI freeze,Real Wages,88.815
+1994,C1 EROI freeze,Real Wages,89.602
+1995,C1 EROI freeze,Real Wages,90.617
+1996,C1 EROI freeze,Real Wages,91.573
+1997,C1 EROI freeze,Real Wages,92.466
+1998,C1 EROI freeze,Real Wages,93.176
+1999,C1 EROI freeze,Real Wages,93.440
+2000,C1 EROI freeze,Real Wages,94.947
+2001,C1 EROI freeze,Real Wages,94.931
+2002,C1 EROI freeze,Real Wages,95.336
+2003,C1 EROI freeze,Real Wages,94.414
+2004,C1 EROI freeze,Real Wages,95.619
+2005,C1 EROI freeze,Real Wages,96.632
+2006,C1 EROI freeze,Real Wages,97.318
+2007,C1 EROI freeze,Real Wages,98.078
+2008,C1 EROI freeze,Real Wages,98.760
+2009,C1 EROI freeze,Real Wages,98.215
+2010,C1 EROI freeze,Real Wages,99.758
+2011,C1 EROI freeze,Real Wages,99.839
+2012,C1 EROI freeze,Real Wages,100.610
+2013,C1 EROI freeze,Real Wages,100.437
+2014,C1 EROI freeze,Real Wages,101.802
+2015,C1 EROI freeze,Real Wages,103.267
+2016,C1 EROI freeze,Real Wages,103.850
+2017,C1 EROI freeze,Real Wages,104.296
+2018,C1 EROI freeze,Real Wages,105.970
+2019,C1 EROI freeze,Real Wages,106.541
+2020,C1 EROI freeze,Real Wages,105.588
+2021,C1 EROI freeze,Real Wages,108.056
+2022,C1 EROI freeze,Real Wages,109.951
+2023,C1 EROI freeze,Real Wages,112.139
+2024,C1 EROI freeze,Real Wages,112.193
+2025,C1 EROI freeze,Real Wages,112.404
+2026,C1 EROI freeze,Real Wages,112.615
+2027,C1 EROI freeze,Real Wages,112.828
+2028,C1 EROI freeze,Real Wages,113.041
+2029,C1 EROI freeze,Real Wages,113.255
+2030,C1 EROI freeze,Real Wages,113.470
+2031,C1 EROI freeze,Real Wages,113.685
+2032,C1 EROI freeze,Real Wages,113.902
+2033,C1 EROI freeze,Real Wages,114.119
+2034,C1 EROI freeze,Real Wages,114.337
+2035,C1 EROI freeze,Real Wages,114.557
+2036,C1 EROI freeze,Real Wages,114.776
+2037,C1 EROI freeze,Real Wages,114.997
+2038,C1 EROI freeze,Real Wages,115.219
+2039,C1 EROI freeze,Real Wages,115.441
+2040,C1 EROI freeze,Real Wages,115.664
+2041,C1 EROI freeze,Real Wages,115.889
+2042,C1 EROI freeze,Real Wages,116.114
+2043,C1 EROI freeze,Real Wages,116.339
+2044,C1 EROI freeze,Real Wages,116.566
+2045,C1 EROI freeze,Real Wages,116.794
+2046,C1 EROI freeze,Real Wages,117.022
+2047,C1 EROI freeze,Real Wages,117.251
+2048,C1 EROI freeze,Real Wages,117.481
+2049,C1 EROI freeze,Real Wages,117.712
+2050,C1 EROI freeze,Real Wages,117.944
+1980,C2 R/P stabilises,Energy CPI,92.013
+1981,C2 R/P stabilises,Energy CPI,88.257
+1982,C2 R/P stabilises,Energy CPI,84.415
+1983,C2 R/P stabilises,Energy CPI,86.188
+1984,C2 R/P stabilises,Energy CPI,90.521
+1985,C2 R/P stabilises,Energy CPI,90.242
+1986,C2 R/P stabilises,Energy CPI,95.500
+1987,C2 R/P stabilises,Energy CPI,121.246
+1988,C2 R/P stabilises,Energy CPI,108.631
+1989,C2 R/P stabilises,Energy CPI,111.743
+1990,C2 R/P stabilises,Energy CPI,107.648
+1991,C2 R/P stabilises,Energy CPI,109.385
+1992,C2 R/P stabilises,Energy CPI,111.303
+1993,C2 R/P stabilises,Energy CPI,113.481
+1994,C2 R/P stabilises,Energy CPI,118.102
+1995,C2 R/P stabilises,Energy CPI,124.277
+1996,C2 R/P stabilises,Energy CPI,130.315
+1997,C2 R/P stabilises,Energy CPI,136.165
+1998,C2 R/P stabilises,Energy CPI,140.957
+1999,C2 R/P stabilises,Energy CPI,142.776
+2000,C2 R/P stabilises,Energy CPI,153.488
+2001,C2 R/P stabilises,Energy CPI,153.376
+2002,C2 R/P stabilises,Energy CPI,156.357
+2003,C2 R/P stabilises,Energy CPI,149.632
+2004,C2 R/P stabilises,Energy CPI,158.465
+2005,C2 R/P stabilises,Energy CPI,166.203
+2006,C2 R/P stabilises,Energy CPI,171.606
+2007,C2 R/P stabilises,Energy CPI,177.756
+2008,C2 R/P stabilises,Energy CPI,183.414
+2009,C2 R/P stabilises,Energy CPI,178.875
+2010,C2 R/P stabilises,Energy CPI,191.946
+2011,C2 R/P stabilises,Energy CPI,192.648
+2012,C2 R/P stabilises,Energy CPI,199.473
+2013,C2 R/P stabilises,Energy CPI,197.923
+2014,C2 R/P stabilises,Energy CPI,210.388
+2015,C2 R/P stabilises,Energy CPI,224.432
+2016,C2 R/P stabilises,Energy CPI,230.218
+2017,C2 R/P stabilises,Energy CPI,234.730
+2018,C2 R/P stabilises,Energy CPI,252.262
+2019,C2 R/P stabilises,Energy CPI,258.466
+2020,C2 R/P stabilises,Energy CPI,248.174
+2021,C2 R/P stabilises,Energy CPI,275.517
+2022,C2 R/P stabilises,Energy CPI,298.055
+2023,C2 R/P stabilises,Energy CPI,325.841
+2024,C2 R/P stabilises,Energy CPI,332.255
+2025,C2 R/P stabilises,Energy CPI,341.012
+2026,C2 R/P stabilises,Energy CPI,350.078
+2027,C2 R/P stabilises,Energy CPI,359.469
+2028,C2 R/P stabilises,Energy CPI,369.200
+2029,C2 R/P stabilises,Energy CPI,379.289
+2030,C2 R/P stabilises,Energy CPI,389.753
+2031,C2 R/P stabilises,Energy CPI,400.613
+2032,C2 R/P stabilises,Energy CPI,411.889
+2033,C2 R/P stabilises,Energy CPI,423.603
+2034,C2 R/P stabilises,Energy CPI,435.779
+2035,C2 R/P stabilises,Energy CPI,448.443
+2036,C2 R/P stabilises,Energy CPI,461.623
+2037,C2 R/P stabilises,Energy CPI,482.566
+2038,C2 R/P stabilises,Energy CPI,508.662
+2039,C2 R/P stabilises,Energy CPI,536.641
+2040,C2 R/P stabilises,Energy CPI,566.678
+2041,C2 R/P stabilises,Energy CPI,598.973
+2042,C2 R/P stabilises,Energy CPI,633.744
+2043,C2 R/P stabilises,Energy CPI,671.242
+2044,C2 R/P stabilises,Energy CPI,711.747
+2045,C2 R/P stabilises,Energy CPI,755.574
+2046,C2 R/P stabilises,Energy CPI,803.084
+2047,C2 R/P stabilises,Energy CPI,854.684
+2048,C2 R/P stabilises,Energy CPI,910.840
+2049,C2 R/P stabilises,Energy CPI,972.086
+2050,C2 R/P stabilises,Energy CPI,1020.965
+1980,C2 R/P stabilises,Food,50.861
+1981,C2 R/P stabilises,Food,49.067
+1982,C2 R/P stabilises,Food,47.222
+1983,C2 R/P stabilises,Food,48.075
+1984,C2 R/P stabilises,Food,50.150
+1985,C2 R/P stabilises,Food,50.016
+1986,C2 R/P stabilises,Food,52.517
+1987,C2 R/P stabilises,Food,64.505
+1988,C2 R/P stabilises,Food,58.680
+1989,C2 R/P stabilises,Food,60.126
+1990,C2 R/P stabilises,Food,58.223
+1991,C2 R/P stabilises,Food,59.031
+1992,C2 R/P stabilises,Food,59.922
+1993,C2 R/P stabilises,Food,60.930
+1994,C2 R/P stabilises,Food,63.062
+1995,C2 R/P stabilises,Food,65.892
+1996,C2 R/P stabilises,Food,68.640
+1997,C2 R/P stabilises,Food,71.286
+1998,C2 R/P stabilises,Food,73.442
+1999,C2 R/P stabilises,Food,74.258
+2000,C2 R/P stabilises,Food,79.032
+2001,C2 R/P stabilises,Food,78.983
+2002,C2 R/P stabilises,Food,80.303
+2003,C2 R/P stabilises,Food,77.319
+2004,C2 R/P stabilises,Food,81.235
+2005,C2 R/P stabilises,Food,84.641
+2006,C2 R/P stabilises,Food,87.006
+2007,C2 R/P stabilises,Food,89.685
+2008,C2 R/P stabilises,Food,92.139
+2009,C2 R/P stabilises,Food,90.171
+2010,C2 R/P stabilises,Food,95.819
+2011,C2 R/P stabilises,Food,96.120
+2012,C2 R/P stabilises,Food,99.047
+2013,C2 R/P stabilises,Food,98.383
+2014,C2 R/P stabilises,Food,103.698
+2015,C2 R/P stabilises,Food,109.634
+2016,C2 R/P stabilises,Food,112.064
+2017,C2 R/P stabilises,Food,113.953
+2018,C2 R/P stabilises,Food,121.248
+2019,C2 R/P stabilises,Food,123.812
+2020,C2 R/P stabilises,Food,119.554
+2021,C2 R/P stabilises,Food,130.816
+2022,C2 R/P stabilises,Food,139.984
+2023,C2 R/P stabilises,Food,151.154
+2024,C2 R/P stabilises,Food,153.714
+2025,C2 R/P stabilises,Food,157.197
+2026,C2 R/P stabilises,Food,160.791
+2027,C2 R/P stabilises,Food,164.499
+2028,C2 R/P stabilises,Food,168.328
+2029,C2 R/P stabilises,Food,172.283
+2030,C2 R/P stabilises,Food,176.369
+2031,C2 R/P stabilises,Food,180.594
+2032,C2 R/P stabilises,Food,184.964
+2033,C2 R/P stabilises,Food,189.487
+2034,C2 R/P stabilises,Food,194.169
+2035,C2 R/P stabilises,Food,199.020
+2036,C2 R/P stabilises,Food,204.048
+2037,C2 R/P stabilises,Food,211.998
+2038,C2 R/P stabilises,Food,221.837
+2039,C2 R/P stabilises,Food,232.308
+2040,C2 R/P stabilises,Food,243.467
+2041,C2 R/P stabilises,Food,255.372
+2042,C2 R/P stabilises,Food,268.092
+2043,C2 R/P stabilises,Food,281.701
+2044,C2 R/P stabilises,Food,296.283
+2045,C2 R/P stabilises,Food,311.933
+2046,C2 R/P stabilises,Food,328.757
+2047,C2 R/P stabilises,Food,346.873
+2048,C2 R/P stabilises,Food,366.418
+2049,C2 R/P stabilises,Food,387.544
+2050,C2 R/P stabilises,Food,404.272
+1980,C2 R/P stabilises,Fertiliser,41.770
+1981,C2 R/P stabilises,Fertiliser,39.988
+1982,C2 R/P stabilises,Fertiliser,38.170
+1983,C2 R/P stabilises,Fertiliser,39.009
+1984,C2 R/P stabilises,Fertiliser,41.062
+1985,C2 R/P stabilises,Fertiliser,40.929
+1986,C2 R/P stabilises,Fertiliser,43.426
+1987,C2 R/P stabilises,Fertiliser,55.736
+1988,C2 R/P stabilises,Fertiliser,49.688
+1989,C2 R/P stabilises,Fertiliser,51.177
+1990,C2 R/P stabilises,Fertiliser,49.218
+1991,C2 R/P stabilises,Fertiliser,50.048
+1992,C2 R/P stabilises,Fertiliser,50.966
+1993,C2 R/P stabilises,Fertiliser,52.010
+1994,C2 R/P stabilises,Fertiliser,54.226
+1995,C2 R/P stabilises,Fertiliser,57.194
+1996,C2 R/P stabilises,Fertiliser,60.103
+1997,C2 R/P stabilises,Fertiliser,62.926
+1998,C2 R/P stabilises,Fertiliser,65.243
+1999,C2 R/P stabilises,Fertiliser,66.124
+2000,C2 R/P stabilises,Fertiliser,71.320
+2001,C2 R/P stabilises,Fertiliser,71.265
+2002,C2 R/P stabilises,Fertiliser,72.714
+2003,C2 R/P stabilises,Fertiliser,69.448
+2004,C2 R/P stabilises,Fertiliser,73.740
+2005,C2 R/P stabilises,Fertiliser,77.508
+2006,C2 R/P stabilises,Fertiliser,80.145
+2007,C2 R/P stabilises,Fertiliser,83.150
+2008,C2 R/P stabilises,Fertiliser,85.920
+2009,C2 R/P stabilises,Fertiliser,83.698
+2010,C2 R/P stabilises,Fertiliser,90.103
+2011,C2 R/P stabilises,Fertiliser,90.447
+2012,C2 R/P stabilises,Fertiliser,93.801
+2013,C2 R/P stabilises,Fertiliser,93.038
+2014,C2 R/P stabilises,Fertiliser,99.174
+2015,C2 R/P stabilises,Fertiliser,106.105
+2016,C2 R/P stabilises,Fertiliser,108.968
+2017,C2 R/P stabilises,Fertiliser,111.201
+2018,C2 R/P stabilises,Fertiliser,119.900
+2019,C2 R/P stabilises,Fertiliser,122.985
+2020,C2 R/P stabilises,Fertiliser,117.869
+2021,C2 R/P stabilises,Fertiliser,131.480
+2022,C2 R/P stabilises,Fertiliser,142.746
+2023,C2 R/P stabilises,Fertiliser,156.688
+2024,C2 R/P stabilises,Fertiliser,159.915
+2025,C2 R/P stabilises,Fertiliser,164.324
+2026,C2 R/P stabilises,Fertiliser,168.894
+2027,C2 R/P stabilises,Fertiliser,173.634
+2028,C2 R/P stabilises,Fertiliser,178.552
+2029,C2 R/P stabilises,Fertiliser,183.656
+2030,C2 R/P stabilises,Fertiliser,188.957
+2031,C2 R/P stabilises,Fertiliser,194.466
+2032,C2 R/P stabilises,Fertiliser,200.192
+2033,C2 R/P stabilises,Fertiliser,206.149
+2034,C2 R/P stabilises,Fertiliser,212.348
+2035,C2 R/P stabilises,Fertiliser,218.805
+2036,C2 R/P stabilises,Fertiliser,225.533
+2037,C2 R/P stabilises,Fertiliser,236.242
+2038,C2 R/P stabilises,Fertiliser,249.616
+2039,C2 R/P stabilises,Fertiliser,263.989
+2040,C2 R/P stabilises,Fertiliser,279.458
+2041,C2 R/P stabilises,Fertiliser,296.131
+2042,C2 R/P stabilises,Fertiliser,314.128
+2043,C2 R/P stabilises,Fertiliser,333.588
+2044,C2 R/P stabilises,Fertiliser,354.663
+2045,C2 R/P stabilises,Fertiliser,377.528
+2046,C2 R/P stabilises,Fertiliser,402.383
+2047,C2 R/P stabilises,Fertiliser,429.454
+2048,C2 R/P stabilises,Fertiliser,459.000
+2049,C2 R/P stabilises,Fertiliser,491.318
+2050,C2 R/P stabilises,Fertiliser,517.177
+1980,C2 R/P stabilises,Real Wages,84.791
+1981,C2 R/P stabilises,Real Wages,84.013
+1982,C2 R/P stabilises,Real Wages,83.191
+1983,C2 R/P stabilises,Real Wages,83.574
+1984,C2 R/P stabilises,Real Wages,84.485
+1985,C2 R/P stabilises,Real Wages,84.428
+1986,C2 R/P stabilises,Real Wages,85.491
+1987,C2 R/P stabilises,Real Wages,90.124
+1988,C2 R/P stabilises,Real Wages,87.961
+1989,C2 R/P stabilises,Real Wages,88.512
+1990,C2 R/P stabilises,Real Wages,87.785
+1991,C2 R/P stabilises,Real Wages,88.096
+1992,C2 R/P stabilises,Real Wages,88.435
+1993,C2 R/P stabilises,Real Wages,88.815
+1994,C2 R/P stabilises,Real Wages,89.602
+1995,C2 R/P stabilises,Real Wages,90.617
+1996,C2 R/P stabilises,Real Wages,91.573
+1997,C2 R/P stabilises,Real Wages,92.466
+1998,C2 R/P stabilises,Real Wages,93.176
+1999,C2 R/P stabilises,Real Wages,93.440
+2000,C2 R/P stabilises,Real Wages,94.947
+2001,C2 R/P stabilises,Real Wages,94.931
+2002,C2 R/P stabilises,Real Wages,95.336
+2003,C2 R/P stabilises,Real Wages,94.414
+2004,C2 R/P stabilises,Real Wages,95.619
+2005,C2 R/P stabilises,Real Wages,96.632
+2006,C2 R/P stabilises,Real Wages,97.318
+2007,C2 R/P stabilises,Real Wages,98.078
+2008,C2 R/P stabilises,Real Wages,98.760
+2009,C2 R/P stabilises,Real Wages,98.215
+2010,C2 R/P stabilises,Real Wages,99.758
+2011,C2 R/P stabilises,Real Wages,99.839
+2012,C2 R/P stabilises,Real Wages,100.610
+2013,C2 R/P stabilises,Real Wages,100.437
+2014,C2 R/P stabilises,Real Wages,101.802
+2015,C2 R/P stabilises,Real Wages,103.267
+2016,C2 R/P stabilises,Real Wages,103.850
+2017,C2 R/P stabilises,Real Wages,104.296
+2018,C2 R/P stabilises,Real Wages,105.970
+2019,C2 R/P stabilises,Real Wages,106.541
+2020,C2 R/P stabilises,Real Wages,105.588
+2021,C2 R/P stabilises,Real Wages,108.056
+2022,C2 R/P stabilises,Real Wages,109.951
+2023,C2 R/P stabilises,Real Wages,112.139
+2024,C2 R/P stabilises,Real Wages,112.624
+2025,C2 R/P stabilises,Real Wages,113.273
+2026,C2 R/P stabilises,Real Wages,113.932
+2027,C2 R/P stabilises,Real Wages,114.601
+2028,C2 R/P stabilises,Real Wages,115.280
+2029,C2 R/P stabilises,Real Wages,115.969
+2030,C2 R/P stabilises,Real Wages,116.669
+2031,C2 R/P stabilises,Real Wages,117.380
+2032,C2 R/P stabilises,Real Wages,118.102
+2033,C2 R/P stabilises,Real Wages,118.837
+2034,C2 R/P stabilises,Real Wages,119.584
+2035,C2 R/P stabilises,Real Wages,120.343
+2036,C2 R/P stabilises,Real Wages,121.116
+2037,C2 R/P stabilises,Real Wages,122.310
+2038,C2 R/P stabilises,Real Wages,123.743
+2039,C2 R/P stabilises,Real Wages,125.216
+2040,C2 R/P stabilises,Real Wages,126.733
+2041,C2 R/P stabilises,Real Wages,128.296
+2042,C2 R/P stabilises,Real Wages,129.906
+2043,C2 R/P stabilises,Real Wages,131.568
+2044,C2 R/P stabilises,Real Wages,133.283
+2045,C2 R/P stabilises,Real Wages,135.055
+2046,C2 R/P stabilises,Real Wages,136.889
+2047,C2 R/P stabilises,Real Wages,138.786
+2048,C2 R/P stabilises,Real Wages,140.752
+2049,C2 R/P stabilises,Real Wages,142.792
+2050,C2 R/P stabilises,Real Wages,144.349
+1980,C3 Demand plateau,Energy CPI,92.013
+1981,C3 Demand plateau,Energy CPI,88.257
+1982,C3 Demand plateau,Energy CPI,84.415
+1983,C3 Demand plateau,Energy CPI,86.188
+1984,C3 Demand plateau,Energy CPI,90.521
+1985,C3 Demand plateau,Energy CPI,90.242
+1986,C3 Demand plateau,Energy CPI,95.500
+1987,C3 Demand plateau,Energy CPI,121.246
+1988,C3 Demand plateau,Energy CPI,108.631
+1989,C3 Demand plateau,Energy CPI,111.743
+1990,C3 Demand plateau,Energy CPI,107.648
+1991,C3 Demand plateau,Energy CPI,109.385
+1992,C3 Demand plateau,Energy CPI,111.303
+1993,C3 Demand plateau,Energy CPI,113.481
+1994,C3 Demand plateau,Energy CPI,118.102
+1995,C3 Demand plateau,Energy CPI,124.277
+1996,C3 Demand plateau,Energy CPI,130.315
+1997,C3 Demand plateau,Energy CPI,136.165
+1998,C3 Demand plateau,Energy CPI,140.957
+1999,C3 Demand plateau,Energy CPI,142.776
+2000,C3 Demand plateau,Energy CPI,153.488
+2001,C3 Demand plateau,Energy CPI,153.376
+2002,C3 Demand plateau,Energy CPI,156.357
+2003,C3 Demand plateau,Energy CPI,149.632
+2004,C3 Demand plateau,Energy CPI,158.465
+2005,C3 Demand plateau,Energy CPI,166.203
+2006,C3 Demand plateau,Energy CPI,171.606
+2007,C3 Demand plateau,Energy CPI,177.756
+2008,C3 Demand plateau,Energy CPI,183.414
+2009,C3 Demand plateau,Energy CPI,178.875
+2010,C3 Demand plateau,Energy CPI,191.946
+2011,C3 Demand plateau,Energy CPI,192.648
+2012,C3 Demand plateau,Energy CPI,199.473
+2013,C3 Demand plateau,Energy CPI,197.923
+2014,C3 Demand plateau,Energy CPI,210.388
+2015,C3 Demand plateau,Energy CPI,224.432
+2016,C3 Demand plateau,Energy CPI,230.218
+2017,C3 Demand plateau,Energy CPI,234.730
+2018,C3 Demand plateau,Energy CPI,252.262
+2019,C3 Demand plateau,Energy CPI,258.466
+2020,C3 Demand plateau,Energy CPI,248.174
+2021,C3 Demand plateau,Energy CPI,275.517
+2022,C3 Demand plateau,Energy CPI,298.055
+2023,C3 Demand plateau,Energy CPI,325.841
+2024,C3 Demand plateau,Energy CPI,325.790
+2025,C3 Demand plateau,Energy CPI,327.863
+2026,C3 Demand plateau,Energy CPI,330.019
+2027,C3 Demand plateau,Energy CPI,332.259
+2028,C3 Demand plateau,Energy CPI,334.590
+2029,C3 Demand plateau,Energy CPI,337.015
+2030,C3 Demand plateau,Energy CPI,339.538
+2031,C3 Demand plateau,Energy CPI,342.166
+2032,C3 Demand plateau,Energy CPI,344.903
+2033,C3 Demand plateau,Energy CPI,347.755
+2034,C3 Demand plateau,Energy CPI,350.729
+2035,C3 Demand plateau,Energy CPI,353.831
+2036,C3 Demand plateau,Energy CPI,357.068
+2037,C3 Demand plateau,Energy CPI,365.923
+2038,C3 Demand plateau,Energy CPI,378.115
+2039,C3 Demand plateau,Energy CPI,391.050
+2040,C3 Demand plateau,Energy CPI,404.792
+2041,C3 Demand plateau,Energy CPI,419.414
+2042,C3 Demand plateau,Energy CPI,434.994
+2043,C3 Demand plateau,Energy CPI,451.621
+2044,C3 Demand plateau,Energy CPI,469.396
+2045,C3 Demand plateau,Energy CPI,488.431
+2046,C3 Demand plateau,Energy CPI,508.853
+2047,C3 Demand plateau,Energy CPI,530.806
+2048,C3 Demand plateau,Energy CPI,554.452
+2049,C3 Demand plateau,Energy CPI,579.978
+2050,C3 Demand plateau,Energy CPI,597.029
+1980,C3 Demand plateau,Food,50.861
+1981,C3 Demand plateau,Food,49.067
+1982,C3 Demand plateau,Food,47.222
+1983,C3 Demand plateau,Food,48.075
+1984,C3 Demand plateau,Food,50.150
+1985,C3 Demand plateau,Food,50.016
+1986,C3 Demand plateau,Food,52.517
+1987,C3 Demand plateau,Food,64.505
+1988,C3 Demand plateau,Food,58.680
+1989,C3 Demand plateau,Food,60.126
+1990,C3 Demand plateau,Food,58.223
+1991,C3 Demand plateau,Food,59.031
+1992,C3 Demand plateau,Food,59.922
+1993,C3 Demand plateau,Food,60.930
+1994,C3 Demand plateau,Food,63.062
+1995,C3 Demand plateau,Food,65.892
+1996,C3 Demand plateau,Food,68.640
+1997,C3 Demand plateau,Food,71.286
+1998,C3 Demand plateau,Food,73.442
+1999,C3 Demand plateau,Food,74.258
+2000,C3 Demand plateau,Food,79.032
+2001,C3 Demand plateau,Food,78.983
+2002,C3 Demand plateau,Food,80.303
+2003,C3 Demand plateau,Food,77.319
+2004,C3 Demand plateau,Food,81.235
+2005,C3 Demand plateau,Food,84.641
+2006,C3 Demand plateau,Food,87.006
+2007,C3 Demand plateau,Food,89.685
+2008,C3 Demand plateau,Food,92.139
+2009,C3 Demand plateau,Food,90.171
+2010,C3 Demand plateau,Food,95.819
+2011,C3 Demand plateau,Food,96.120
+2012,C3 Demand plateau,Food,99.047
+2013,C3 Demand plateau,Food,98.383
+2014,C3 Demand plateau,Food,103.698
+2015,C3 Demand plateau,Food,109.634
+2016,C3 Demand plateau,Food,112.064
+2017,C3 Demand plateau,Food,113.953
+2018,C3 Demand plateau,Food,121.248
+2019,C3 Demand plateau,Food,123.812
+2020,C3 Demand plateau,Food,119.554
+2021,C3 Demand plateau,Food,130.816
+2022,C3 Demand plateau,Food,139.984
+2023,C3 Demand plateau,Food,151.154
+2024,C3 Demand plateau,Food,151.134
+2025,C3 Demand plateau,Food,151.962
+2026,C3 Demand plateau,Food,152.822
+2027,C3 Demand plateau,Food,153.716
+2028,C3 Demand plateau,Food,154.644
+2029,C3 Demand plateau,Food,155.609
+2030,C3 Demand plateau,Food,156.612
+2031,C3 Demand plateau,Food,157.655
+2032,C3 Demand plateau,Food,158.741
+2033,C3 Demand plateau,Food,159.871
+2034,C3 Demand plateau,Food,161.048
+2035,C3 Demand plateau,Food,162.274
+2036,C3 Demand plateau,Food,163.553
+2037,C3 Demand plateau,Food,167.040
+2038,C3 Demand plateau,Food,171.823
+2039,C3 Demand plateau,Food,176.875
+2040,C3 Demand plateau,Food,182.216
+2041,C3 Demand plateau,Food,187.872
+2042,C3 Demand plateau,Food,193.868
+2043,C3 Demand plateau,Food,200.234
+2044,C3 Demand plateau,Food,207.005
+2045,C3 Demand plateau,Food,214.216
+2046,C3 Demand plateau,Food,221.909
+2047,C3 Demand plateau,Food,230.131
+2048,C3 Demand plateau,Food,238.935
+2049,C3 Demand plateau,Food,248.381
+2050,C3 Demand plateau,Food,254.658
+1980,C3 Demand plateau,Fertiliser,41.770
+1981,C3 Demand plateau,Fertiliser,39.988
+1982,C3 Demand plateau,Fertiliser,38.170
+1983,C3 Demand plateau,Fertiliser,39.009
+1984,C3 Demand plateau,Fertiliser,41.062
+1985,C3 Demand plateau,Fertiliser,40.929
+1986,C3 Demand plateau,Fertiliser,43.426
+1987,C3 Demand plateau,Fertiliser,55.736
+1988,C3 Demand plateau,Fertiliser,49.688
+1989,C3 Demand plateau,Fertiliser,51.177
+1990,C3 Demand plateau,Fertiliser,49.218
+1991,C3 Demand plateau,Fertiliser,50.048
+1992,C3 Demand plateau,Fertiliser,50.966
+1993,C3 Demand plateau,Fertiliser,52.010
+1994,C3 Demand plateau,Fertiliser,54.226
+1995,C3 Demand plateau,Fertiliser,57.194
+1996,C3 Demand plateau,Fertiliser,60.103
+1997,C3 Demand plateau,Fertiliser,62.926
+1998,C3 Demand plateau,Fertiliser,65.243
+1999,C3 Demand plateau,Fertiliser,66.124
+2000,C3 Demand plateau,Fertiliser,71.320
+2001,C3 Demand plateau,Fertiliser,71.265
+2002,C3 Demand plateau,Fertiliser,72.714
+2003,C3 Demand plateau,Fertiliser,69.448
+2004,C3 Demand plateau,Fertiliser,73.740
+2005,C3 Demand plateau,Fertiliser,77.508
+2006,C3 Demand plateau,Fertiliser,80.145
+2007,C3 Demand plateau,Fertiliser,83.150
+2008,C3 Demand plateau,Fertiliser,85.920
+2009,C3 Demand plateau,Fertiliser,83.698
+2010,C3 Demand plateau,Fertiliser,90.103
+2011,C3 Demand plateau,Fertiliser,90.447
+2012,C3 Demand plateau,Fertiliser,93.801
+2013,C3 Demand plateau,Fertiliser,93.038
+2014,C3 Demand plateau,Fertiliser,99.174
+2015,C3 Demand plateau,Fertiliser,106.105
+2016,C3 Demand plateau,Fertiliser,108.968
+2017,C3 Demand plateau,Fertiliser,111.201
+2018,C3 Demand plateau,Fertiliser,119.900
+2019,C3 Demand plateau,Fertiliser,122.985
+2020,C3 Demand plateau,Fertiliser,117.869
+2021,C3 Demand plateau,Fertiliser,131.480
+2022,C3 Demand plateau,Fertiliser,142.746
+2023,C3 Demand plateau,Fertiliser,156.688
+2024,C3 Demand plateau,Fertiliser,156.662
+2025,C3 Demand plateau,Fertiliser,157.705
+2026,C3 Demand plateau,Fertiliser,158.789
+2027,C3 Demand plateau,Fertiliser,159.917
+2028,C3 Demand plateau,Fertiliser,161.090
+2029,C3 Demand plateau,Fertiliser,162.310
+2030,C3 Demand plateau,Fertiliser,163.581
+2031,C3 Demand plateau,Fertiliser,164.905
+2032,C3 Demand plateau,Fertiliser,166.285
+2033,C3 Demand plateau,Fertiliser,167.723
+2034,C3 Demand plateau,Fertiliser,169.223
+2035,C3 Demand plateau,Fertiliser,170.788
+2036,C3 Demand plateau,Fertiliser,172.422
+2037,C3 Demand plateau,Fertiliser,176.895
+2038,C3 Demand plateau,Fertiliser,183.062
+2039,C3 Demand plateau,Fertiliser,189.615
+2040,C3 Demand plateau,Fertiliser,196.588
+2041,C3 Demand plateau,Fertiliser,204.018
+2042,C3 Demand plateau,Fertiliser,211.948
+2043,C3 Demand plateau,Fertiliser,220.427
+2044,C3 Demand plateau,Fertiliser,229.505
+2045,C3 Demand plateau,Fertiliser,239.245
+2046,C3 Demand plateau,Fertiliser,249.714
+2047,C3 Demand plateau,Fertiliser,260.989
+2048,C3 Demand plateau,Fertiliser,273.157
+2049,C3 Demand plateau,Fertiliser,286.319
+2050,C3 Demand plateau,Fertiliser,295.126
+1980,C3 Demand plateau,Real Wages,84.791
+1981,C3 Demand plateau,Real Wages,84.013
+1982,C3 Demand plateau,Real Wages,83.191
+1983,C3 Demand plateau,Real Wages,83.574
+1984,C3 Demand plateau,Real Wages,84.485
+1985,C3 Demand plateau,Real Wages,84.428
+1986,C3 Demand plateau,Real Wages,85.491
+1987,C3 Demand plateau,Real Wages,90.124
+1988,C3 Demand plateau,Real Wages,87.961
+1989,C3 Demand plateau,Real Wages,88.512
+1990,C3 Demand plateau,Real Wages,87.785
+1991,C3 Demand plateau,Real Wages,88.096
+1992,C3 Demand plateau,Real Wages,88.435
+1993,C3 Demand plateau,Real Wages,88.815
+1994,C3 Demand plateau,Real Wages,89.602
+1995,C3 Demand plateau,Real Wages,90.617
+1996,C3 Demand plateau,Real Wages,91.573
+1997,C3 Demand plateau,Real Wages,92.466
+1998,C3 Demand plateau,Real Wages,93.176
+1999,C3 Demand plateau,Real Wages,93.440
+2000,C3 Demand plateau,Real Wages,94.947
+2001,C3 Demand plateau,Real Wages,94.931
+2002,C3 Demand plateau,Real Wages,95.336
+2003,C3 Demand plateau,Real Wages,94.414
+2004,C3 Demand plateau,Real Wages,95.619
+2005,C3 Demand plateau,Real Wages,96.632
+2006,C3 Demand plateau,Real Wages,97.318
+2007,C3 Demand plateau,Real Wages,98.078
+2008,C3 Demand plateau,Real Wages,98.760
+2009,C3 Demand plateau,Real Wages,98.215
+2010,C3 Demand plateau,Real Wages,99.758
+2011,C3 Demand plateau,Real Wages,99.839
+2012,C3 Demand plateau,Real Wages,100.610
+2013,C3 Demand plateau,Real Wages,100.437
+2014,C3 Demand plateau,Real Wages,101.802
+2015,C3 Demand plateau,Real Wages,103.267
+2016,C3 Demand plateau,Real Wages,103.850
+2017,C3 Demand plateau,Real Wages,104.296
+2018,C3 Demand plateau,Real Wages,105.970
+2019,C3 Demand plateau,Real Wages,106.541
+2020,C3 Demand plateau,Real Wages,105.588
+2021,C3 Demand plateau,Real Wages,108.056
+2022,C3 Demand plateau,Real Wages,109.951
+2023,C3 Demand plateau,Real Wages,112.139
+2024,C3 Demand plateau,Real Wages,112.135
+2025,C3 Demand plateau,Real Wages,112.293
+2026,C3 Demand plateau,Real Wages,112.456
+2027,C3 Demand plateau,Real Wages,112.624
+2028,C3 Demand plateau,Real Wages,112.798
+2029,C3 Demand plateau,Real Wages,112.978
+2030,C3 Demand plateau,Real Wages,113.165
+2031,C3 Demand plateau,Real Wages,113.358
+2032,C3 Demand plateau,Real Wages,113.558
+2033,C3 Demand plateau,Real Wages,113.765
+2034,C3 Demand plateau,Real Wages,113.979
+2035,C3 Demand plateau,Real Wages,114.201
+2036,C3 Demand plateau,Real Wages,114.431
+2037,C3 Demand plateau,Real Wages,115.053
+2038,C3 Demand plateau,Real Wages,115.889
+2039,C3 Demand plateau,Real Wages,116.754
+2040,C3 Demand plateau,Real Wages,117.649
+2041,C3 Demand plateau,Real Wages,118.576
+2042,C3 Demand plateau,Real Wages,119.536
+2043,C3 Demand plateau,Real Wages,120.531
+2044,C3 Demand plateau,Real Wages,121.564
+2045,C3 Demand plateau,Real Wages,122.637
+2046,C3 Demand plateau,Real Wages,123.753
+2047,C3 Demand plateau,Real Wages,124.914
+2048,C3 Demand plateau,Real Wages,126.123
+2049,C3 Demand plateau,Real Wages,127.385
+2050,C3 Demand plateau,Real Wages,128.203
+1980,C4 All frozen,Energy CPI,92.013
+1981,C4 All frozen,Energy CPI,88.257
+1982,C4 All frozen,Energy CPI,84.415
+1983,C4 All frozen,Energy CPI,86.188
+1984,C4 All frozen,Energy CPI,90.521
+1985,C4 All frozen,Energy CPI,90.242
+1986,C4 All frozen,Energy CPI,95.500
+1987,C4 All frozen,Energy CPI,121.246
+1988,C4 All frozen,Energy CPI,108.631
+1989,C4 All frozen,Energy CPI,111.743
+1990,C4 All frozen,Energy CPI,107.648
+1991,C4 All frozen,Energy CPI,109.385
+1992,C4 All frozen,Energy CPI,111.303
+1993,C4 All frozen,Energy CPI,113.481
+1994,C4 All frozen,Energy CPI,118.102
+1995,C4 All frozen,Energy CPI,124.277
+1996,C4 All frozen,Energy CPI,130.315
+1997,C4 All frozen,Energy CPI,136.165
+1998,C4 All frozen,Energy CPI,140.957
+1999,C4 All frozen,Energy CPI,142.776
+2000,C4 All frozen,Energy CPI,153.488
+2001,C4 All frozen,Energy CPI,153.376
+2002,C4 All frozen,Energy CPI,156.357
+2003,C4 All frozen,Energy CPI,149.632
+2004,C4 All frozen,Energy CPI,158.465
+2005,C4 All frozen,Energy CPI,166.203
+2006,C4 All frozen,Energy CPI,171.606
+2007,C4 All frozen,Energy CPI,177.756
+2008,C4 All frozen,Energy CPI,183.414
+2009,C4 All frozen,Energy CPI,178.875
+2010,C4 All frozen,Energy CPI,191.946
+2011,C4 All frozen,Energy CPI,192.648
+2012,C4 All frozen,Energy CPI,199.473
+2013,C4 All frozen,Energy CPI,197.923
+2014,C4 All frozen,Energy CPI,210.388
+2015,C4 All frozen,Energy CPI,224.432
+2016,C4 All frozen,Energy CPI,230.218
+2017,C4 All frozen,Energy CPI,234.730
+2018,C4 All frozen,Energy CPI,252.262
+2019,C4 All frozen,Energy CPI,258.466
+2020,C4 All frozen,Energy CPI,248.174
+2021,C4 All frozen,Energy CPI,275.517
+2022,C4 All frozen,Energy CPI,298.055
+2023,C4 All frozen,Energy CPI,325.841
+2024,C4 All frozen,Energy CPI,323.794
+2025,C4 All frozen,Energy CPI,323.794
+2026,C4 All frozen,Energy CPI,323.794
+2027,C4 All frozen,Energy CPI,323.794
+2028,C4 All frozen,Energy CPI,323.794
+2029,C4 All frozen,Energy CPI,323.794
+2030,C4 All frozen,Energy CPI,323.794
+2031,C4 All frozen,Energy CPI,323.794
+2032,C4 All frozen,Energy CPI,323.794
+2033,C4 All frozen,Energy CPI,323.794
+2034,C4 All frozen,Energy CPI,323.794
+2035,C4 All frozen,Energy CPI,323.794
+2036,C4 All frozen,Energy CPI,323.794
+2037,C4 All frozen,Energy CPI,323.794
+2038,C4 All frozen,Energy CPI,323.794
+2039,C4 All frozen,Energy CPI,323.794
+2040,C4 All frozen,Energy CPI,323.794
+2041,C4 All frozen,Energy CPI,323.794
+2042,C4 All frozen,Energy CPI,323.794
+2043,C4 All frozen,Energy CPI,323.794
+2044,C4 All frozen,Energy CPI,323.794
+2045,C4 All frozen,Energy CPI,323.794
+2046,C4 All frozen,Energy CPI,323.794
+2047,C4 All frozen,Energy CPI,323.794
+2048,C4 All frozen,Energy CPI,323.794
+2049,C4 All frozen,Energy CPI,323.794
+2050,C4 All frozen,Energy CPI,323.794
+1980,C4 All frozen,Food,50.861
+1981,C4 All frozen,Food,49.067
+1982,C4 All frozen,Food,47.222
+1983,C4 All frozen,Food,48.075
+1984,C4 All frozen,Food,50.150
+1985,C4 All frozen,Food,50.016
+1986,C4 All frozen,Food,52.517
+1987,C4 All frozen,Food,64.505
+1988,C4 All frozen,Food,58.680
+1989,C4 All frozen,Food,60.126
+1990,C4 All frozen,Food,58.223
+1991,C4 All frozen,Food,59.031
+1992,C4 All frozen,Food,59.922
+1993,C4 All frozen,Food,60.930
+1994,C4 All frozen,Food,63.062
+1995,C4 All frozen,Food,65.892
+1996,C4 All frozen,Food,68.640
+1997,C4 All frozen,Food,71.286
+1998,C4 All frozen,Food,73.442
+1999,C4 All frozen,Food,74.258
+2000,C4 All frozen,Food,79.032
+2001,C4 All frozen,Food,78.983
+2002,C4 All frozen,Food,80.303
+2003,C4 All frozen,Food,77.319
+2004,C4 All frozen,Food,81.235
+2005,C4 All frozen,Food,84.641
+2006,C4 All frozen,Food,87.006
+2007,C4 All frozen,Food,89.685
+2008,C4 All frozen,Food,92.139
+2009,C4 All frozen,Food,90.171
+2010,C4 All frozen,Food,95.819
+2011,C4 All frozen,Food,96.120
+2012,C4 All frozen,Food,99.047
+2013,C4 All frozen,Food,98.383
+2014,C4 All frozen,Food,103.698
+2015,C4 All frozen,Food,109.634
+2016,C4 All frozen,Food,112.064
+2017,C4 All frozen,Food,113.953
+2018,C4 All frozen,Food,121.248
+2019,C4 All frozen,Food,123.812
+2020,C4 All frozen,Food,119.554
+2021,C4 All frozen,Food,130.816
+2022,C4 All frozen,Food,139.984
+2023,C4 All frozen,Food,151.154
+2024,C4 All frozen,Food,150.336
+2025,C4 All frozen,Food,150.336
+2026,C4 All frozen,Food,150.336
+2027,C4 All frozen,Food,150.336
+2028,C4 All frozen,Food,150.336
+2029,C4 All frozen,Food,150.336
+2030,C4 All frozen,Food,150.336
+2031,C4 All frozen,Food,150.336
+2032,C4 All frozen,Food,150.336
+2033,C4 All frozen,Food,150.336
+2034,C4 All frozen,Food,150.336
+2035,C4 All frozen,Food,150.336
+2036,C4 All frozen,Food,150.336
+2037,C4 All frozen,Food,150.336
+2038,C4 All frozen,Food,150.336
+2039,C4 All frozen,Food,150.336
+2040,C4 All frozen,Food,150.336
+2041,C4 All frozen,Food,150.336
+2042,C4 All frozen,Food,150.336
+2043,C4 All frozen,Food,150.336
+2044,C4 All frozen,Food,150.336
+2045,C4 All frozen,Food,150.336
+2046,C4 All frozen,Food,150.336
+2047,C4 All frozen,Food,150.336
+2048,C4 All frozen,Food,150.336
+2049,C4 All frozen,Food,150.336
+2050,C4 All frozen,Food,150.336
+1980,C4 All frozen,Fertiliser,41.770
+1981,C4 All frozen,Fertiliser,39.988
+1982,C4 All frozen,Fertiliser,38.170
+1983,C4 All frozen,Fertiliser,39.009
+1984,C4 All frozen,Fertiliser,41.062
+1985,C4 All frozen,Fertiliser,40.929
+1986,C4 All frozen,Fertiliser,43.426
+1987,C4 All frozen,Fertiliser,55.736
+1988,C4 All frozen,Fertiliser,49.688
+1989,C4 All frozen,Fertiliser,51.177
+1990,C4 All frozen,Fertiliser,49.218
+1991,C4 All frozen,Fertiliser,50.048
+1992,C4 All frozen,Fertiliser,50.966
+1993,C4 All frozen,Fertiliser,52.010
+1994,C4 All frozen,Fertiliser,54.226
+1995,C4 All frozen,Fertiliser,57.194
+1996,C4 All frozen,Fertiliser,60.103
+1997,C4 All frozen,Fertiliser,62.926
+1998,C4 All frozen,Fertiliser,65.243
+1999,C4 All frozen,Fertiliser,66.124
+2000,C4 All frozen,Fertiliser,71.320
+2001,C4 All frozen,Fertiliser,71.265
+2002,C4 All frozen,Fertiliser,72.714
+2003,C4 All frozen,Fertiliser,69.448
+2004,C4 All frozen,Fertiliser,73.740
+2005,C4 All frozen,Fertiliser,77.508
+2006,C4 All frozen,Fertiliser,80.145
+2007,C4 All frozen,Fertiliser,83.150
+2008,C4 All frozen,Fertiliser,85.920
+2009,C4 All frozen,Fertiliser,83.698
+2010,C4 All frozen,Fertiliser,90.103
+2011,C4 All frozen,Fertiliser,90.447
+2012,C4 All frozen,Fertiliser,93.801
+2013,C4 All frozen,Fertiliser,93.038
+2014,C4 All frozen,Fertiliser,99.174
+2015,C4 All frozen,Fertiliser,106.105
+2016,C4 All frozen,Fertiliser,108.968
+2017,C4 All frozen,Fertiliser,111.201
+2018,C4 All frozen,Fertiliser,119.900
+2019,C4 All frozen,Fertiliser,122.985
+2020,C4 All frozen,Fertiliser,117.869
+2021,C4 All frozen,Fertiliser,131.480
+2022,C4 All frozen,Fertiliser,142.746
+2023,C4 All frozen,Fertiliser,156.688
+2024,C4 All frozen,Fertiliser,155.659
+2025,C4 All frozen,Fertiliser,155.659
+2026,C4 All frozen,Fertiliser,155.659
+2027,C4 All frozen,Fertiliser,155.659
+2028,C4 All frozen,Fertiliser,155.659
+2029,C4 All frozen,Fertiliser,155.659
+2030,C4 All frozen,Fertiliser,155.659
+2031,C4 All frozen,Fertiliser,155.659
+2032,C4 All frozen,Fertiliser,155.659
+2033,C4 All frozen,Fertiliser,155.659
+2034,C4 All frozen,Fertiliser,155.659
+2035,C4 All frozen,Fertiliser,155.659
+2036,C4 All frozen,Fertiliser,155.659
+2037,C4 All frozen,Fertiliser,155.659
+2038,C4 All frozen,Fertiliser,155.659
+2039,C4 All frozen,Fertiliser,155.659
+2040,C4 All frozen,Fertiliser,155.659
+2041,C4 All frozen,Fertiliser,155.659
+2042,C4 All frozen,Fertiliser,155.659
+2043,C4 All frozen,Fertiliser,155.659
+2044,C4 All frozen,Fertiliser,155.659
+2045,C4 All frozen,Fertiliser,155.659
+2046,C4 All frozen,Fertiliser,155.659
+2047,C4 All frozen,Fertiliser,155.659
+2048,C4 All frozen,Fertiliser,155.659
+2049,C4 All frozen,Fertiliser,155.659
+2050,C4 All frozen,Fertiliser,155.659
+1980,C4 All frozen,Real Wages,84.791
+1981,C4 All frozen,Real Wages,84.013
+1982,C4 All frozen,Real Wages,83.191
+1983,C4 All frozen,Real Wages,83.574
+1984,C4 All frozen,Real Wages,84.485
+1985,C4 All frozen,Real Wages,84.428
+1986,C4 All frozen,Real Wages,85.491
+1987,C4 All frozen,Real Wages,90.124
+1988,C4 All frozen,Real Wages,87.961
+1989,C4 All frozen,Real Wages,88.512
+1990,C4 All frozen,Real Wages,87.785
+1991,C4 All frozen,Real Wages,88.096
+1992,C4 All frozen,Real Wages,88.435
+1993,C4 All frozen,Real Wages,88.815
+1994,C4 All frozen,Real Wages,89.602
+1995,C4 All frozen,Real Wages,90.617
+1996,C4 All frozen,Real Wages,91.573
+1997,C4 All frozen,Real Wages,92.466
+1998,C4 All frozen,Real Wages,93.176
+1999,C4 All frozen,Real Wages,93.440
+2000,C4 All frozen,Real Wages,94.947
+2001,C4 All frozen,Real Wages,94.931
+2002,C4 All frozen,Real Wages,95.336
+2003,C4 All frozen,Real Wages,94.414
+2004,C4 All frozen,Real Wages,95.619
+2005,C4 All frozen,Real Wages,96.632
+2006,C4 All frozen,Real Wages,97.318
+2007,C4 All frozen,Real Wages,98.078
+2008,C4 All frozen,Real Wages,98.760
+2009,C4 All frozen,Real Wages,98.215
+2010,C4 All frozen,Real Wages,99.758
+2011,C4 All frozen,Real Wages,99.839
+2012,C4 All frozen,Real Wages,100.610
+2013,C4 All frozen,Real Wages,100.437
+2014,C4 All frozen,Real Wages,101.802
+2015,C4 All frozen,Real Wages,103.267
+2016,C4 All frozen,Real Wages,103.850
+2017,C4 All frozen,Real Wages,104.296
+2018,C4 All frozen,Real Wages,105.970
+2019,C4 All frozen,Real Wages,106.541
+2020,C4 All frozen,Real Wages,105.588
+2021,C4 All frozen,Real Wages,108.056
+2022,C4 All frozen,Real Wages,109.951
+2023,C4 All frozen,Real Wages,112.139
+2024,C4 All frozen,Real Wages,111.983
+2025,C4 All frozen,Real Wages,111.983
+2026,C4 All frozen,Real Wages,111.983
+2027,C4 All frozen,Real Wages,111.983
+2028,C4 All frozen,Real Wages,111.983
+2029,C4 All frozen,Real Wages,111.983
+2030,C4 All frozen,Real Wages,111.983
+2031,C4 All frozen,Real Wages,111.983
+2032,C4 All frozen,Real Wages,111.983
+2033,C4 All frozen,Real Wages,111.983
+2034,C4 All frozen,Real Wages,111.983
+2035,C4 All frozen,Real Wages,111.983
+2036,C4 All frozen,Real Wages,111.983
+2037,C4 All frozen,Real Wages,111.983
+2038,C4 All frozen,Real Wages,111.983
+2039,C4 All frozen,Real Wages,111.983
+2040,C4 All frozen,Real Wages,111.983
+2041,C4 All frozen,Real Wages,111.983
+2042,C4 All frozen,Real Wages,111.983
+2043,C4 All frozen,Real Wages,111.983
+2044,C4 All frozen,Real Wages,111.983
+2045,C4 All frozen,Real Wages,111.983
+2046,C4 All frozen,Real Wages,111.983
+2047,C4 All frozen,Real Wages,111.983
+2048,C4 All frozen,Real Wages,111.983
+2049,C4 All frozen,Real Wages,111.983
+2050,C4 All frozen,Real Wages,111.983
+1980,Pessimistic,Energy CPI,92.013
+1981,Pessimistic,Energy CPI,88.257
+1982,Pessimistic,Energy CPI,84.415
+1983,Pessimistic,Energy CPI,86.188
+1984,Pessimistic,Energy CPI,90.521
+1985,Pessimistic,Energy CPI,90.242
+1986,Pessimistic,Energy CPI,95.500
+1987,Pessimistic,Energy CPI,121.246
+1988,Pessimistic,Energy CPI,108.631
+1989,Pessimistic,Energy CPI,111.743
+1990,Pessimistic,Energy CPI,107.648
+1991,Pessimistic,Energy CPI,109.385
+1992,Pessimistic,Energy CPI,111.303
+1993,Pessimistic,Energy CPI,113.481
+1994,Pessimistic,Energy CPI,118.102
+1995,Pessimistic,Energy CPI,124.277
+1996,Pessimistic,Energy CPI,130.315
+1997,Pessimistic,Energy CPI,136.165
+1998,Pessimistic,Energy CPI,140.957
+1999,Pessimistic,Energy CPI,142.776
+2000,Pessimistic,Energy CPI,153.488
+2001,Pessimistic,Energy CPI,153.376
+2002,Pessimistic,Energy CPI,156.357
+2003,Pessimistic,Energy CPI,149.632
+2004,Pessimistic,Energy CPI,158.465
+2005,Pessimistic,Energy CPI,166.203
+2006,Pessimistic,Energy CPI,171.606
+2007,Pessimistic,Energy CPI,177.756
+2008,Pessimistic,Energy CPI,183.414
+2009,Pessimistic,Energy CPI,178.875
+2010,Pessimistic,Energy CPI,191.946
+2011,Pessimistic,Energy CPI,192.648
+2012,Pessimistic,Energy CPI,199.473
+2013,Pessimistic,Energy CPI,197.923
+2014,Pessimistic,Energy CPI,210.388
+2015,Pessimistic,Energy CPI,224.432
+2016,Pessimistic,Energy CPI,230.218
+2017,Pessimistic,Energy CPI,234.730
+2018,Pessimistic,Energy CPI,252.262
+2019,Pessimistic,Energy CPI,258.466
+2020,Pessimistic,Energy CPI,248.174
+2021,Pessimistic,Energy CPI,275.517
+2022,Pessimistic,Energy CPI,298.055
+2023,Pessimistic,Energy CPI,325.841
+2024,Pessimistic,Energy CPI,339.747
+2025,Pessimistic,Energy CPI,356.701
+2026,Pessimistic,Energy CPI,374.739
+2027,Pessimistic,Energy CPI,393.954
+2028,Pessimistic,Energy CPI,414.450
+2029,Pessimistic,Energy CPI,436.344
+2030,Pessimistic,Energy CPI,459.764
+2031,Pessimistic,Energy CPI,484.860
+2032,Pessimistic,Energy CPI,531.667
+2033,Pessimistic,Energy CPI,584.410
+2034,Pessimistic,Energy CPI,644.066
+2035,Pessimistic,Energy CPI,711.821
+2036,Pessimistic,Energy CPI,789.116
+2037,Pessimistic,Energy CPI,877.726
+2038,Pessimistic,Energy CPI,979.845
+2039,Pessimistic,Energy CPI,1098.221
+2040,Pessimistic,Energy CPI,1130.436
+2041,Pessimistic,Energy CPI,1163.631
+2042,Pessimistic,Energy CPI,1197.835
+2043,Pessimistic,Energy CPI,1233.079
+2044,Pessimistic,Energy CPI,1269.397
+2045,Pessimistic,Energy CPI,1306.821
+2046,Pessimistic,Energy CPI,1345.385
+2047,Pessimistic,Energy CPI,1385.127
+2048,Pessimistic,Energy CPI,1426.082
+2049,Pessimistic,Energy CPI,1468.287
+2050,Pessimistic,Energy CPI,1511.784
+1980,Pessimistic,Food,50.861
+1981,Pessimistic,Food,49.067
+1982,Pessimistic,Food,47.222
+1983,Pessimistic,Food,48.075
+1984,Pessimistic,Food,50.150
+1985,Pessimistic,Food,50.016
+1986,Pessimistic,Food,52.517
+1987,Pessimistic,Food,64.505
+1988,Pessimistic,Food,58.680
+1989,Pessimistic,Food,60.126
+1990,Pessimistic,Food,58.223
+1991,Pessimistic,Food,59.031
+1992,Pessimistic,Food,59.922
+1993,Pessimistic,Food,60.930
+1994,Pessimistic,Food,63.062
+1995,Pessimistic,Food,65.892
+1996,Pessimistic,Food,68.640
+1997,Pessimistic,Food,71.286
+1998,Pessimistic,Food,73.442
+1999,Pessimistic,Food,74.258
+2000,Pessimistic,Food,79.032
+2001,Pessimistic,Food,78.983
+2002,Pessimistic,Food,80.303
+2003,Pessimistic,Food,77.319
+2004,Pessimistic,Food,81.235
+2005,Pessimistic,Food,84.641
+2006,Pessimistic,Food,87.006
+2007,Pessimistic,Food,89.685
+2008,Pessimistic,Food,92.139
+2009,Pessimistic,Food,90.171
+2010,Pessimistic,Food,95.819
+2011,Pessimistic,Food,96.120
+2012,Pessimistic,Food,99.047
+2013,Pessimistic,Food,98.383
+2014,Pessimistic,Food,103.698
+2015,Pessimistic,Food,109.634
+2016,Pessimistic,Food,112.064
+2017,Pessimistic,Food,113.953
+2018,Pessimistic,Food,121.248
+2019,Pessimistic,Food,123.812
+2020,Pessimistic,Food,119.554
+2021,Pessimistic,Food,130.816
+2022,Pessimistic,Food,139.984
+2023,Pessimistic,Food,151.154
+2024,Pessimistic,Food,156.695
+2025,Pessimistic,Food,163.408
+2026,Pessimistic,Food,170.501
+2027,Pessimistic,Food,178.006
+2028,Pessimistic,Food,185.955
+2029,Pessimistic,Food,194.386
+2030,Pessimistic,Food,203.341
+2031,Pessimistic,Food,212.866
+2032,Pessimistic,Food,230.453
+2033,Pessimistic,Food,250.015
+2034,Pessimistic,Food,271.849
+2035,Pessimistic,Food,296.310
+2036,Pessimistic,Food,323.825
+2037,Pessimistic,Food,354.913
+2038,Pessimistic,Food,390.207
+2039,Pessimistic,Food,430.489
+2040,Pessimistic,Food,441.345
+2041,Pessimistic,Food,452.486
+2042,Pessimistic,Food,463.919
+2043,Pessimistic,Food,475.654
+2044,Pessimistic,Food,487.697
+2045,Pessimistic,Food,500.057
+2046,Pessimistic,Food,512.743
+2047,Pessimistic,Food,525.763
+2048,Pessimistic,Food,539.126
+2049,Pessimistic,Food,552.843
+2050,Pessimistic,Food,566.921
+1980,Pessimistic,Fertiliser,41.770
+1981,Pessimistic,Fertiliser,39.988
+1982,Pessimistic,Fertiliser,38.170
+1983,Pessimistic,Fertiliser,39.009
+1984,Pessimistic,Fertiliser,41.062
+1985,Pessimistic,Fertiliser,40.929
+1986,Pessimistic,Fertiliser,43.426
+1987,Pessimistic,Fertiliser,55.736
+1988,Pessimistic,Fertiliser,49.688
+1989,Pessimistic,Fertiliser,51.177
+1990,Pessimistic,Fertiliser,49.218
+1991,Pessimistic,Fertiliser,50.048
+1992,Pessimistic,Fertiliser,50.966
+1993,Pessimistic,Fertiliser,52.010
+1994,Pessimistic,Fertiliser,54.226
+1995,Pessimistic,Fertiliser,57.194
+1996,Pessimistic,Fertiliser,60.103
+1997,Pessimistic,Fertiliser,62.926
+1998,Pessimistic,Fertiliser,65.243
+1999,Pessimistic,Fertiliser,66.124
+2000,Pessimistic,Fertiliser,71.320
+2001,Pessimistic,Fertiliser,71.265
+2002,Pessimistic,Fertiliser,72.714
+2003,Pessimistic,Fertiliser,69.448
+2004,Pessimistic,Fertiliser,73.740
+2005,Pessimistic,Fertiliser,77.508
+2006,Pessimistic,Fertiliser,80.145
+2007,Pessimistic,Fertiliser,83.150
+2008,Pessimistic,Fertiliser,85.920
+2009,Pessimistic,Fertiliser,83.698
+2010,Pessimistic,Fertiliser,90.103
+2011,Pessimistic,Fertiliser,90.447
+2012,Pessimistic,Fertiliser,93.801
+2013,Pessimistic,Fertiliser,93.038
+2014,Pessimistic,Fertiliser,99.174
+2015,Pessimistic,Fertiliser,106.105
+2016,Pessimistic,Fertiliser,108.968
+2017,Pessimistic,Fertiliser,111.201
+2018,Pessimistic,Fertiliser,119.900
+2019,Pessimistic,Fertiliser,122.985
+2020,Pessimistic,Fertiliser,117.869
+2021,Pessimistic,Fertiliser,131.480
+2022,Pessimistic,Fertiliser,142.746
+2023,Pessimistic,Fertiliser,156.688
+2024,Pessimistic,Fertiliser,163.687
+2025,Pessimistic,Fertiliser,172.237
+2026,Pessimistic,Fertiliser,181.354
+2027,Pessimistic,Fertiliser,191.088
+2028,Pessimistic,Fertiliser,201.494
+2029,Pessimistic,Fertiliser,212.636
+2030,Pessimistic,Fertiliser,224.584
+2031,Pessimistic,Fertiliser,237.417
+2032,Pessimistic,Fertiliser,261.432
+2033,Pessimistic,Fertiliser,288.607
+2034,Pessimistic,Fertiliser,319.480
+2035,Pessimistic,Fertiliser,354.701
+2036,Pessimistic,Fertiliser,395.069
+2037,Pessimistic,Fertiliser,441.567
+2038,Pessimistic,Fertiliser,495.419
+2039,Pessimistic,Fertiliser,558.163
+2040,Pessimistic,Fertiliser,575.294
+2041,Pessimistic,Fertiliser,592.969
+2042,Pessimistic,Fertiliser,611.205
+2043,Pessimistic,Fertiliser,630.020
+2044,Pessimistic,Fertiliser,649.434
+2045,Pessimistic,Fertiliser,669.466
+2046,Pessimistic,Fertiliser,690.136
+2047,Pessimistic,Fertiliser,711.465
+2048,Pessimistic,Fertiliser,733.475
+2049,Pessimistic,Fertiliser,756.187
+2050,Pessimistic,Fertiliser,779.624
+1980,Pessimistic,Real Wages,84.791
+1981,Pessimistic,Real Wages,84.013
+1982,Pessimistic,Real Wages,83.191
+1983,Pessimistic,Real Wages,83.574
+1984,Pessimistic,Real Wages,84.485
+1985,Pessimistic,Real Wages,84.428
+1986,Pessimistic,Real Wages,85.491
+1987,Pessimistic,Real Wages,90.124
+1988,Pessimistic,Real Wages,87.961
+1989,Pessimistic,Real Wages,88.512
+1990,Pessimistic,Real Wages,87.785
+1991,Pessimistic,Real Wages,88.096
+1992,Pessimistic,Real Wages,88.435
+1993,Pessimistic,Real Wages,88.815
+1994,Pessimistic,Real Wages,89.602
+1995,Pessimistic,Real Wages,90.617
+1996,Pessimistic,Real Wages,91.573
+1997,Pessimistic,Real Wages,92.466
+1998,Pessimistic,Real Wages,93.176
+1999,Pessimistic,Real Wages,93.440
+2000,Pessimistic,Real Wages,94.947
+2001,Pessimistic,Real Wages,94.931
+2002,Pessimistic,Real Wages,95.336
+2003,Pessimistic,Real Wages,94.414
+2004,Pessimistic,Real Wages,95.619
+2005,Pessimistic,Real Wages,96.632
+2006,Pessimistic,Real Wages,97.318
+2007,Pessimistic,Real Wages,98.078
+2008,Pessimistic,Real Wages,98.760
+2009,Pessimistic,Real Wages,98.215
+2010,Pessimistic,Real Wages,99.758
+2011,Pessimistic,Real Wages,99.839
+2012,Pessimistic,Real Wages,100.610
+2013,Pessimistic,Real Wages,100.437
+2014,Pessimistic,Real Wages,101.802
+2015,Pessimistic,Real Wages,103.267
+2016,Pessimistic,Real Wages,103.850
+2017,Pessimistic,Real Wages,104.296
+2018,Pessimistic,Real Wages,105.970
+2019,Pessimistic,Real Wages,106.541
+2020,Pessimistic,Real Wages,105.588
+2021,Pessimistic,Real Wages,108.056
+2022,Pessimistic,Real Wages,109.951
+2023,Pessimistic,Real Wages,112.139
+2024,Pessimistic,Real Wages,113.180
+2025,Pessimistic,Real Wages,114.405
+2026,Pessimistic,Real Wages,115.660
+2027,Pessimistic,Real Wages,116.946
+2028,Pessimistic,Real Wages,118.264
+2029,Pessimistic,Real Wages,119.618
+2030,Pessimistic,Real Wages,121.008
+2031,Pessimistic,Real Wages,122.439
+2032,Pessimistic,Real Wages,124.959
+2033,Pessimistic,Real Wages,127.599
+2034,Pessimistic,Real Wages,130.371
+2035,Pessimistic,Real Wages,133.286
+2036,Pessimistic,Real Wages,136.359
+2037,Pessimistic,Real Wages,139.605
+2038,Pessimistic,Real Wages,143.043
+2039,Pessimistic,Real Wages,146.696
+2040,Pessimistic,Real Wages,147.637
+2041,Pessimistic,Real Wages,148.584
+2042,Pessimistic,Real Wages,149.539
+2043,Pessimistic,Real Wages,150.501
+2044,Pessimistic,Real Wages,151.470
+2045,Pessimistic,Real Wages,152.446
+2046,Pessimistic,Real Wages,153.429
+2047,Pessimistic,Real Wages,154.420
+2048,Pessimistic,Real Wages,155.418
+2049,Pessimistic,Real Wages,156.423
+2050,Pessimistic,Real Wages,157.436
+1980,Central,Energy CPI,92.013
+1981,Central,Energy CPI,88.257
+1982,Central,Energy CPI,84.415
+1983,Central,Energy CPI,86.188
+1984,Central,Energy CPI,90.521
+1985,Central,Energy CPI,90.242
+1986,Central,Energy CPI,95.500
+1987,Central,Energy CPI,121.246
+1988,Central,Energy CPI,108.631
+1989,Central,Energy CPI,111.743
+1990,Central,Energy CPI,107.648
+1991,Central,Energy CPI,109.385
+1992,Central,Energy CPI,111.303
+1993,Central,Energy CPI,113.481
+1994,Central,Energy CPI,118.102
+1995,Central,Energy CPI,124.277
+1996,Central,Energy CPI,130.315
+1997,Central,Energy CPI,136.165
+1998,Central,Energy CPI,140.957
+1999,Central,Energy CPI,142.776
+2000,Central,Energy CPI,153.488
+2001,Central,Energy CPI,153.376
+2002,Central,Energy CPI,156.357
+2003,Central,Energy CPI,149.632
+2004,Central,Energy CPI,158.465
+2005,Central,Energy CPI,166.203
+2006,Central,Energy CPI,171.606
+2007,Central,Energy CPI,177.756
+2008,Central,Energy CPI,183.414
+2009,Central,Energy CPI,178.875
+2010,Central,Energy CPI,191.946
+2011,Central,Energy CPI,192.648
+2012,Central,Energy CPI,199.473
+2013,Central,Energy CPI,197.923
+2014,Central,Energy CPI,210.388
+2015,Central,Energy CPI,224.432
+2016,Central,Energy CPI,230.218
+2017,Central,Energy CPI,234.730
+2018,Central,Energy CPI,252.262
+2019,Central,Energy CPI,258.466
+2020,Central,Energy CPI,248.174
+2021,Central,Energy CPI,275.517
+2022,Central,Energy CPI,298.055
+2023,Central,Energy CPI,325.841
+2024,Central,Energy CPI,330.403
+2025,Central,Energy CPI,337.219
+2026,Central,Energy CPI,344.254
+2027,Central,Energy CPI,351.518
+2028,Central,Energy CPI,359.021
+2029,Central,Energy CPI,366.775
+2030,Central,Energy CPI,374.792
+2031,Central,Energy CPI,383.087
+2032,Central,Energy CPI,391.674
+2033,Central,Energy CPI,400.567
+2034,Central,Energy CPI,409.783
+2035,Central,Energy CPI,419.340
+2036,Central,Energy CPI,429.258
+2037,Central,Energy CPI,446.231
+2038,Central,Energy CPI,467.739
+2039,Central,Energy CPI,490.715
+2040,Central,Energy CPI,515.293
+2041,Central,Energy CPI,541.621
+2042,Central,Energy CPI,569.868
+2043,Central,Energy CPI,600.221
+2044,Central,Energy CPI,632.891
+2045,Central,Energy CPI,668.117
+2046,Central,Energy CPI,706.168
+2047,Central,Energy CPI,747.350
+2048,Central,Energy CPI,792.013
+2049,Central,Energy CPI,840.555
+2050,Central,Energy CPI,877.898
+1980,Central,Food,50.861
+1981,Central,Food,49.067
+1982,Central,Food,47.222
+1983,Central,Food,48.075
+1984,Central,Food,50.150
+1985,Central,Food,50.016
+1986,Central,Food,52.517
+1987,Central,Food,64.505
+1988,Central,Food,58.680
+1989,Central,Food,60.126
+1990,Central,Food,58.223
+1991,Central,Food,59.031
+1992,Central,Food,59.922
+1993,Central,Food,60.930
+1994,Central,Food,63.062
+1995,Central,Food,65.892
+1996,Central,Food,68.640
+1997,Central,Food,71.286
+1998,Central,Food,73.442
+1999,Central,Food,74.258
+2000,Central,Food,79.032
+2001,Central,Food,78.983
+2002,Central,Food,80.303
+2003,Central,Food,77.319
+2004,Central,Food,81.235
+2005,Central,Food,84.641
+2006,Central,Food,87.006
+2007,Central,Food,89.685
+2008,Central,Food,92.139
+2009,Central,Food,90.171
+2010,Central,Food,95.819
+2011,Central,Food,96.120
+2012,Central,Food,99.047
+2013,Central,Food,98.383
+2014,Central,Food,103.698
+2015,Central,Food,109.634
+2016,Central,Food,112.064
+2017,Central,Food,113.953
+2018,Central,Food,121.248
+2019,Central,Food,123.812
+2020,Central,Food,119.554
+2021,Central,Food,130.816
+2022,Central,Food,139.984
+2023,Central,Food,151.154
+2024,Central,Food,152.975
+2025,Central,Food,155.690
+2026,Central,Food,158.484
+2027,Central,Food,161.360
+2028,Central,Food,164.323
+2029,Central,Food,167.375
+2030,Central,Food,170.522
+2031,Central,Food,173.768
+2032,Central,Food,177.118
+2033,Central,Food,180.576
+2034,Central,Food,184.149
+2035,Central,Food,187.843
+2036,Central,Food,191.664
+2037,Central,Food,198.174
+2038,Central,Food,206.375
+2039,Central,Food,215.078
+2040,Central,Food,224.326
+2041,Central,Food,234.164
+2042,Central,Food,244.647
+2043,Central,Food,255.830
+2044,Central,Food,267.781
+2045,Central,Food,280.571
+2046,Central,Food,294.282
+2047,Central,Food,309.006
+2048,Central,Food,324.849
+2049,Central,Food,341.928
+2050,Central,Food,354.973
+1980,Central,Fertiliser,41.770
+1981,Central,Fertiliser,39.988
+1982,Central,Fertiliser,38.170
+1983,Central,Fertiliser,39.009
+1984,Central,Fertiliser,41.062
+1985,Central,Fertiliser,40.929
+1986,Central,Fertiliser,43.426
+1987,Central,Fertiliser,55.736
+1988,Central,Fertiliser,49.688
+1989,Central,Fertiliser,51.177
+1990,Central,Fertiliser,49.218
+1991,Central,Fertiliser,50.048
+1992,Central,Fertiliser,50.966
+1993,Central,Fertiliser,52.010
+1994,Central,Fertiliser,54.226
+1995,Central,Fertiliser,57.194
+1996,Central,Fertiliser,60.103
+1997,Central,Fertiliser,62.926
+1998,Central,Fertiliser,65.243
+1999,Central,Fertiliser,66.124
+2000,Central,Fertiliser,71.320
+2001,Central,Fertiliser,71.265
+2002,Central,Fertiliser,72.714
+2003,Central,Fertiliser,69.448
+2004,Central,Fertiliser,73.740
+2005,Central,Fertiliser,77.508
+2006,Central,Fertiliser,80.145
+2007,Central,Fertiliser,83.150
+2008,Central,Fertiliser,85.920
+2009,Central,Fertiliser,83.698
+2010,Central,Fertiliser,90.103
+2011,Central,Fertiliser,90.447
+2012,Central,Fertiliser,93.801
+2013,Central,Fertiliser,93.038
+2014,Central,Fertiliser,99.174
+2015,Central,Fertiliser,106.105
+2016,Central,Fertiliser,108.968
+2017,Central,Fertiliser,111.201
+2018,Central,Fertiliser,119.900
+2019,Central,Fertiliser,122.985
+2020,Central,Fertiliser,117.869
+2021,Central,Fertiliser,131.480
+2022,Central,Fertiliser,142.746
+2023,Central,Fertiliser,156.688
+2024,Central,Fertiliser,158.982
+2025,Central,Fertiliser,162.414
+2026,Central,Fertiliser,165.958
+2027,Central,Fertiliser,169.621
+2028,Central,Fertiliser,173.408
+2029,Central,Fertiliser,177.326
+2030,Central,Fertiliser,181.381
+2031,Central,Fertiliser,185.580
+2032,Central,Fertiliser,189.931
+2033,Central,Fertiliser,194.442
+2034,Central,Fertiliser,199.122
+2035,Central,Fertiliser,203.981
+2036,Central,Fertiliser,209.027
+2037,Central,Fertiliser,217.676
+2038,Central,Fertiliser,228.658
+2039,Central,Fertiliser,240.415
+2040,Central,Fertiliser,253.019
+2041,Central,Fertiliser,266.551
+2042,Central,Fertiliser,281.103
+2043,Central,Fertiliser,296.776
+2044,Central,Fertiliser,313.686
+2045,Central,Fertiliser,331.964
+2046,Central,Fertiliser,351.756
+2047,Central,Fertiliser,373.233
+2048,Central,Fertiliser,396.585
+2049,Central,Fertiliser,422.034
+2050,Central,Fertiliser,441.657
+1980,Central,Real Wages,84.791
+1981,Central,Real Wages,84.013
+1982,Central,Real Wages,83.191
+1983,Central,Real Wages,83.574
+1984,Central,Real Wages,84.485
+1985,Central,Real Wages,84.428
+1986,Central,Real Wages,85.491
+1987,Central,Real Wages,90.124
+1988,Central,Real Wages,87.961
+1989,Central,Real Wages,88.512
+1990,Central,Real Wages,87.785
+1991,Central,Real Wages,88.096
+1992,Central,Real Wages,88.435
+1993,Central,Real Wages,88.815
+1994,Central,Real Wages,89.602
+1995,Central,Real Wages,90.617
+1996,Central,Real Wages,91.573
+1997,Central,Real Wages,92.466
+1998,Central,Real Wages,93.176
+1999,Central,Real Wages,93.440
+2000,Central,Real Wages,94.947
+2001,Central,Real Wages,94.931
+2002,Central,Real Wages,95.336
+2003,Central,Real Wages,94.414
+2004,Central,Real Wages,95.619
+2005,Central,Real Wages,96.632
+2006,Central,Real Wages,97.318
+2007,Central,Real Wages,98.078
+2008,Central,Real Wages,98.760
+2009,Central,Real Wages,98.215
+2010,Central,Real Wages,99.758
+2011,Central,Real Wages,99.839
+2012,Central,Real Wages,100.610
+2013,Central,Real Wages,100.437
+2014,Central,Real Wages,101.802
+2015,Central,Real Wages,103.267
+2016,Central,Real Wages,103.850
+2017,Central,Real Wages,104.296
+2018,Central,Real Wages,105.970
+2019,Central,Real Wages,106.541
+2020,Central,Real Wages,105.588
+2021,Central,Real Wages,108.056
+2022,Central,Real Wages,109.951
+2023,Central,Real Wages,112.139
+2024,Central,Real Wages,112.485
+2025,Central,Real Wages,112.994
+2026,Central,Real Wages,113.510
+2027,Central,Real Wages,114.036
+2028,Central,Real Wages,114.569
+2029,Central,Real Wages,115.112
+2030,Central,Real Wages,115.663
+2031,Central,Real Wages,116.225
+2032,Central,Real Wages,116.796
+2033,Central,Real Wages,117.377
+2034,Central,Real Wages,117.968
+2035,Central,Real Wages,118.571
+2036,Central,Real Wages,119.186
+2037,Central,Real Wages,120.212
+2038,Central,Real Wages,121.469
+2039,Central,Real Wages,122.764
+2040,Central,Real Wages,124.098
+2041,Central,Real Wages,125.472
+2042,Central,Real Wages,126.891
+2043,Central,Real Wages,128.355
+2044,Central,Real Wages,129.867
+2045,Central,Real Wages,131.432
+2046,Central,Real Wages,133.051
+2047,Central,Real Wages,134.729
+2048,Central,Real Wages,136.469
+2049,Central,Real Wages,138.276
+2050,Central,Real Wages,139.611
+1980,Optimistic,Energy CPI,92.013
+1981,Optimistic,Energy CPI,88.257
+1982,Optimistic,Energy CPI,84.415
+1983,Optimistic,Energy CPI,86.188
+1984,Optimistic,Energy CPI,90.521
+1985,Optimistic,Energy CPI,90.242
+1986,Optimistic,Energy CPI,95.500
+1987,Optimistic,Energy CPI,121.246
+1988,Optimistic,Energy CPI,108.631
+1989,Optimistic,Energy CPI,111.743
+1990,Optimistic,Energy CPI,107.648
+1991,Optimistic,Energy CPI,109.385
+1992,Optimistic,Energy CPI,111.303
+1993,Optimistic,Energy CPI,113.481
+1994,Optimistic,Energy CPI,118.102
+1995,Optimistic,Energy CPI,124.277
+1996,Optimistic,Energy CPI,130.315
+1997,Optimistic,Energy CPI,136.165
+1998,Optimistic,Energy CPI,140.957
+1999,Optimistic,Energy CPI,142.776
+2000,Optimistic,Energy CPI,153.488
+2001,Optimistic,Energy CPI,153.376
+2002,Optimistic,Energy CPI,156.357
+2003,Optimistic,Energy CPI,149.632
+2004,Optimistic,Energy CPI,158.465
+2005,Optimistic,Energy CPI,166.203
+2006,Optimistic,Energy CPI,171.606
+2007,Optimistic,Energy CPI,177.756
+2008,Optimistic,Energy CPI,183.414
+2009,Optimistic,Energy CPI,178.875
+2010,Optimistic,Energy CPI,191.946
+2011,Optimistic,Energy CPI,192.648
+2012,Optimistic,Energy CPI,199.473
+2013,Optimistic,Energy CPI,197.923
+2014,Optimistic,Energy CPI,210.388
+2015,Optimistic,Energy CPI,224.432
+2016,Optimistic,Energy CPI,230.218
+2017,Optimistic,Energy CPI,234.730
+2018,Optimistic,Energy CPI,252.262
+2019,Optimistic,Energy CPI,258.466
+2020,Optimistic,Energy CPI,248.174
+2021,Optimistic,Energy CPI,275.517
+2022,Optimistic,Energy CPI,298.055
+2023,Optimistic,Energy CPI,325.841
+2024,Optimistic,Energy CPI,318.809
+2025,Optimistic,Energy CPI,313.934
+2026,Optimistic,Energy CPI,309.164
+2027,Optimistic,Energy CPI,304.497
+2028,Optimistic,Energy CPI,299.929
+2029,Optimistic,Energy CPI,295.458
+2030,Optimistic,Energy CPI,291.080
+2031,Optimistic,Energy CPI,286.793
+2032,Optimistic,Energy CPI,282.594
+2033,Optimistic,Energy CPI,278.480
+2034,Optimistic,Energy CPI,274.450
+2035,Optimistic,Energy CPI,270.500
+2036,Optimistic,Energy CPI,266.629
+2037,Optimistic,Energy CPI,262.833
+2038,Optimistic,Energy CPI,259.112
+2039,Optimistic,Energy CPI,255.463
+2040,Optimistic,Energy CPI,251.884
+2041,Optimistic,Energy CPI,248.373
+2042,Optimistic,Energy CPI,244.928
+2043,Optimistic,Energy CPI,241.548
+2044,Optimistic,Energy CPI,238.231
+2045,Optimistic,Energy CPI,234.976
+2046,Optimistic,Energy CPI,231.780
+2047,Optimistic,Energy CPI,228.642
+2048,Optimistic,Energy CPI,225.561
+2049,Optimistic,Energy CPI,222.536
+2050,Optimistic,Energy CPI,219.564
+1980,Optimistic,Food,50.861
+1981,Optimistic,Food,49.067
+1982,Optimistic,Food,47.222
+1983,Optimistic,Food,48.075
+1984,Optimistic,Food,50.150
+1985,Optimistic,Food,50.016
+1986,Optimistic,Food,52.517
+1987,Optimistic,Food,64.505
+1988,Optimistic,Food,58.680
+1989,Optimistic,Food,60.126
+1990,Optimistic,Food,58.223
+1991,Optimistic,Food,59.031
+1992,Optimistic,Food,59.922
+1993,Optimistic,Food,60.930
+1994,Optimistic,Food,63.062
+1995,Optimistic,Food,65.892
+1996,Optimistic,Food,68.640
+1997,Optimistic,Food,71.286
+1998,Optimistic,Food,73.442
+1999,Optimistic,Food,74.258
+2000,Optimistic,Food,79.032
+2001,Optimistic,Food,78.983
+2002,Optimistic,Food,80.303
+2003,Optimistic,Food,77.319
+2004,Optimistic,Food,81.235
+2005,Optimistic,Food,84.641
+2006,Optimistic,Food,87.006
+2007,Optimistic,Food,89.685
+2008,Optimistic,Food,92.139
+2009,Optimistic,Food,90.171
+2010,Optimistic,Food,95.819
+2011,Optimistic,Food,96.120
+2012,Optimistic,Food,99.047
+2013,Optimistic,Food,98.383
+2014,Optimistic,Food,103.698
+2015,Optimistic,Food,109.634
+2016,Optimistic,Food,112.064
+2017,Optimistic,Food,113.953
+2018,Optimistic,Food,121.248
+2019,Optimistic,Food,123.812
+2020,Optimistic,Food,119.554
+2021,Optimistic,Food,130.816
+2022,Optimistic,Food,139.984
+2023,Optimistic,Food,151.154
+2024,Optimistic,Food,148.340
+2025,Optimistic,Food,146.384
+2026,Optimistic,Food,144.466
+2027,Optimistic,Food,142.586
+2028,Optimistic,Food,140.741
+2029,Optimistic,Food,138.932
+2030,Optimistic,Food,137.157
+2031,Optimistic,Food,135.415
+2032,Optimistic,Food,133.706
+2033,Optimistic,Food,132.028
+2034,Optimistic,Food,130.380
+2035,Optimistic,Food,128.762
+2036,Optimistic,Food,127.173
+2037,Optimistic,Food,125.612
+2038,Optimistic,Food,124.079
+2039,Optimistic,Food,122.572
+2040,Optimistic,Food,121.091
+2041,Optimistic,Food,119.636
+2042,Optimistic,Food,118.205
+2043,Optimistic,Food,116.799
+2044,Optimistic,Food,115.416
+2045,Optimistic,Food,114.056
+2046,Optimistic,Food,112.719
+2047,Optimistic,Food,111.403
+2048,Optimistic,Food,110.109
+2049,Optimistic,Food,108.835
+2050,Optimistic,Food,107.582
+1980,Optimistic,Fertiliser,41.770
+1981,Optimistic,Fertiliser,39.988
+1982,Optimistic,Fertiliser,38.170
+1983,Optimistic,Fertiliser,39.009
+1984,Optimistic,Fertiliser,41.062
+1985,Optimistic,Fertiliser,40.929
+1986,Optimistic,Fertiliser,43.426
+1987,Optimistic,Fertiliser,55.736
+1988,Optimistic,Fertiliser,49.688
+1989,Optimistic,Fertiliser,51.177
+1990,Optimistic,Fertiliser,49.218
+1991,Optimistic,Fertiliser,50.048
+1992,Optimistic,Fertiliser,50.966
+1993,Optimistic,Fertiliser,52.010
+1994,Optimistic,Fertiliser,54.226
+1995,Optimistic,Fertiliser,57.194
+1996,Optimistic,Fertiliser,60.103
+1997,Optimistic,Fertiliser,62.926
+1998,Optimistic,Fertiliser,65.243
+1999,Optimistic,Fertiliser,66.124
+2000,Optimistic,Fertiliser,71.320
+2001,Optimistic,Fertiliser,71.265
+2002,Optimistic,Fertiliser,72.714
+2003,Optimistic,Fertiliser,69.448
+2004,Optimistic,Fertiliser,73.740
+2005,Optimistic,Fertiliser,77.508
+2006,Optimistic,Fertiliser,80.145
+2007,Optimistic,Fertiliser,83.150
+2008,Optimistic,Fertiliser,85.920
+2009,Optimistic,Fertiliser,83.698
+2010,Optimistic,Fertiliser,90.103
+2011,Optimistic,Fertiliser,90.447
+2012,Optimistic,Fertiliser,93.801
+2013,Optimistic,Fertiliser,93.038
+2014,Optimistic,Fertiliser,99.174
+2015,Optimistic,Fertiliser,106.105
+2016,Optimistic,Fertiliser,108.968
+2017,Optimistic,Fertiliser,111.201
+2018,Optimistic,Fertiliser,119.900
+2019,Optimistic,Fertiliser,122.985
+2020,Optimistic,Fertiliser,117.869
+2021,Optimistic,Fertiliser,131.480
+2022,Optimistic,Fertiliser,142.746
+2023,Optimistic,Fertiliser,156.688
+2024,Optimistic,Fertiliser,153.155
+2025,Optimistic,Fertiliser,150.706
+2026,Optimistic,Fertiliser,148.313
+2027,Optimistic,Fertiliser,145.973
+2028,Optimistic,Fertiliser,143.684
+2029,Optimistic,Fertiliser,141.446
+2030,Optimistic,Fertiliser,139.255
+2031,Optimistic,Fertiliser,137.111
+2032,Optimistic,Fertiliser,135.013
+2033,Optimistic,Fertiliser,132.959
+2034,Optimistic,Fertiliser,130.948
+2035,Optimistic,Fertiliser,128.978
+2036,Optimistic,Fertiliser,127.048
+2037,Optimistic,Fertiliser,125.158
+2038,Optimistic,Fertiliser,123.306
+2039,Optimistic,Fertiliser,121.491
+2040,Optimistic,Fertiliser,119.712
+2041,Optimistic,Fertiliser,117.968
+2042,Optimistic,Fertiliser,116.258
+2043,Optimistic,Fertiliser,114.581
+2044,Optimistic,Fertiliser,112.936
+2045,Optimistic,Fertiliser,111.323
+2046,Optimistic,Fertiliser,109.740
+2047,Optimistic,Fertiliser,108.188
+2048,Optimistic,Fertiliser,106.664
+2049,Optimistic,Fertiliser,105.169
+2050,Optimistic,Fertiliser,103.701
+1980,Optimistic,Real Wages,84.791
+1981,Optimistic,Real Wages,84.013
+1982,Optimistic,Real Wages,83.191
+1983,Optimistic,Real Wages,83.574
+1984,Optimistic,Real Wages,84.485
+1985,Optimistic,Real Wages,84.428
+1986,Optimistic,Real Wages,85.491
+1987,Optimistic,Real Wages,90.124
+1988,Optimistic,Real Wages,87.961
+1989,Optimistic,Real Wages,88.512
+1990,Optimistic,Real Wages,87.785
+1991,Optimistic,Real Wages,88.096
+1992,Optimistic,Real Wages,88.435
+1993,Optimistic,Real Wages,88.815
+1994,Optimistic,Real Wages,89.602
+1995,Optimistic,Real Wages,90.617
+1996,Optimistic,Real Wages,91.573
+1997,Optimistic,Real Wages,92.466
+1998,Optimistic,Real Wages,93.176
+1999,Optimistic,Real Wages,93.440
+2000,Optimistic,Real Wages,94.947
+2001,Optimistic,Real Wages,94.931
+2002,Optimistic,Real Wages,95.336
+2003,Optimistic,Real Wages,94.414
+2004,Optimistic,Real Wages,95.619
+2005,Optimistic,Real Wages,96.632
+2006,Optimistic,Real Wages,97.318
+2007,Optimistic,Real Wages,98.078
+2008,Optimistic,Real Wages,98.760
+2009,Optimistic,Real Wages,98.215
+2010,Optimistic,Real Wages,99.758
+2011,Optimistic,Real Wages,99.839
+2012,Optimistic,Real Wages,100.610
+2013,Optimistic,Real Wages,100.437
+2014,Optimistic,Real Wages,101.802
+2015,Optimistic,Real Wages,103.267
+2016,Optimistic,Real Wages,103.850
+2017,Optimistic,Real Wages,104.296
+2018,Optimistic,Real Wages,105.970
+2019,Optimistic,Real Wages,106.541
+2020,Optimistic,Real Wages,105.588
+2021,Optimistic,Real Wages,108.056
+2022,Optimistic,Real Wages,109.951
+2023,Optimistic,Real Wages,112.139
+2024,Optimistic,Real Wages,111.600
+2025,Optimistic,Real Wages,111.220
+2026,Optimistic,Real Wages,110.844
+2027,Optimistic,Real Wages,110.472
+2028,Optimistic,Real Wages,110.104
+2029,Optimistic,Real Wages,109.739
+2030,Optimistic,Real Wages,109.377
+2031,Optimistic,Real Wages,109.019
+2032,Optimistic,Real Wages,108.664
+2033,Optimistic,Real Wages,108.312
+2034,Optimistic,Real Wages,107.964
+2035,Optimistic,Real Wages,107.618
+2036,Optimistic,Real Wages,107.276
+2037,Optimistic,Real Wages,106.936
+2038,Optimistic,Real Wages,106.600
+2039,Optimistic,Real Wages,106.266
+2040,Optimistic,Real Wages,105.935
+2041,Optimistic,Real Wages,105.607
+2042,Optimistic,Real Wages,105.281
+2043,Optimistic,Real Wages,104.958
+2044,Optimistic,Real Wages,104.638
+2045,Optimistic,Real Wages,104.320
+2046,Optimistic,Real Wages,104.005
+2047,Optimistic,Real Wages,103.692
+2048,Optimistic,Real Wages,103.381
+2049,Optimistic,Real Wages,103.073
+2050,Optimistic,Real Wages,102.767

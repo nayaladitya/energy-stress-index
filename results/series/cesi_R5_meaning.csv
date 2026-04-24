@@ -1,0 +1,13 @@
+test,row,r2_alone,r2_with_cesi,delta,verdict_or_value
+M1,E only,0.8830,0.8858,+0.0028,CESI redundant
+M1,E_per_capita,0.6940,0.8316,+0.1376,CESI ADDS
+M1,E_intensity,0.8941,0.9065,+0.0124,CESI redundant
+M2-period,Full 1980-2023 (n=44),,,,"raw=0.911, partial=-0.306, diff=0.088"
+M2-period,Early 1980-2000 (n=21),,,,"raw=0.950, partial=0.174, diff=0.482"
+M2-period,Late 2001-2023 (n=23),,,,"raw=0.767, partial=-0.140, diff=-0.030"
+M2b-horse,CESI,0.8291,0.8291,+0.0000,
+M2b-horse,log GDP,0.8949,0.9123,+0.0175,
+M2b-horse,log M2,0.8376,0.8407,+0.0032,
+M2b-horse,log Productivity,0.9160,0.9254,+0.0094,
+M2b-horse,Unemployment,0.1910,0.8368,+0.6457,
+M2b-horse,log E_intensity,0.8941,0.9065,+0.0124,

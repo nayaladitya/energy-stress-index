@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "CESI — Civilisational Energy Stress Index"
+message: "If you use this work, please cite both the software release and the accompanying paper."
+type: software
+authors:
+  - family-names: "<your surname>"
+    given-names: "<your given name>"
+repository-code: "https://github.com/<username>/cesi"
+license: MIT
+version: "1.0.0"
+date-released: "2026-04-24"
+abstract: >
+  A thermodynamic decomposition of long-run energy-system constraint into
+  three mechanisms — EROI, reserves-to-production, and aggregate demand —
+  with causal-isolation projections to 2050 and explicit falsification
+  conditions.

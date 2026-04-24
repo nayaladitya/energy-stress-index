@@ -1,0 +1,15 @@
+run_id,family,CESI_1980,CESI_2023,delta_pct,max_dd_pct,crit_A,crit_C,rank_corr_vs_base
+baseline,baseline,100.000,611.616,+0.00,1.65,1,1,1.0000
+jackknife_drop_E,jackknife,100.000,713.013,+16.58,1.25,1,1,0.9993
+jackknife_drop_X,jackknife,100.000,554.204,-9.39,2.28,1,1,0.9994
+jackknife_drop_I,jackknife,100.000,563.552,-7.86,1.46,1,1,0.9989
+jackknife_drop_P,jackknife,100.000,631.396,+3.23,1.59,1,1,1.0000
+alt_E=final_energy,alt_proxy,100.000,628.583,+2.77,1.56,1,1,1.0000
+alt_X=cement_Mt,alt_proxy,100.000,678.847,+10.99,1.95,1,1,0.9976
+alt_I=BalticDryIdx,alt_proxy,100.000,484.582,-20.77,13.30,0,1,0.9765
+alt_P=raw_population,alt_proxy,100.000,606.122,-0.90,1.63,1,1,1.0000
+alt_ALL_swapped,alt_proxy,100.000,563.286,-7.90,6.21,0,1,0.9904
+per_capita_CESI,per_capita,100.000,336.173,-45.04,4.09,1,1,0.9946
+supply_eroi_PCHIP,supply_struct,100.000,611.616,+0.00,0.90,1,1,0.9952
+supply_era_OPEC_share,supply_struct,100.000,465.704,-23.86,3.74,1,1,0.9818
+supply_undeflated,supply_struct,100.000,458.712,-25.00,6.50,0,0,0.9708

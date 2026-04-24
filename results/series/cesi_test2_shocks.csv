@@ -1,0 +1,5 @@
+Shock,Type,Pre_YM,T0_YM,Post_YM,CESI_Pre,CESI_T0,CESI_Post,Peak_YM,CESI_Peak,Peak_Delta,Peak_Z,Net_Delta,Net_Pct,Net_Z,Result,Expected
+2008 Oil Spike,price/demand,2008-01,2008-07,2009-01,109.796,107.580,97.179,2009-01,97.179,-12.617,-3.289,-12.617,-11.49,-3.289,PASS,Demand collapses post-spike -> CESI falls
+2014-16 Shale Crash,supply-glut,2014-05,2014-11,2015-08,102.702,105.308,137.192,2015-01,140.041,+37.339,+9.735,+34.490,+33.58,+8.992,PASS,"Demand intact, supply expands -> CESI flat/up modestly"
+2020 COVID Demand Collapse,demand,2020-01,2020-04,2020-09,162.057,150.143,153.896,2020-04,150.143,-11.914,-3.106,-8.160,-5.04,-2.127,PASS,"Demand collapses, supply intact -> CESI sharply down"
+2022 Russia/Ukraine,supply/geopol,2021-11,2022-03,2022-12,185.423,193.627,197.941,2022-07,194.775,+9.351,+2.438,+12.518,+6.75,+3.263,PASS,"Supply impaired, demand intact -> CESI rises"
