@@ -420,48 +420,60 @@ plt.rcParams.update({
     'font.family': 'DejaVu Sans',
     'axes.edgecolor': '#333333',
     'axes.linewidth': 1.0,
-    'axes.labelcolor': '#222222',
-    'xtick.color': '#222222',
-    'ytick.color': '#222222',
+    'axes.labelcolor': '#111111',
+    'xtick.color': '#111111',
+    'ytick.color': '#111111',
 })
 
 
-def _save(fig, name):
+def _save(fig, name, dpi=300):
     for d in FIG_DIRS:
-        fig.savefig(f'{d}/{name}.png', dpi=220, bbox_inches='tight', facecolor='white')
+        fig.savefig(f'{d}/{name}.png', dpi=dpi, bbox_inches='tight',
+                    pad_inches=0.15, facecolor='white')
 
 
-# ── Figure 1: CESI vs WTI ──────────────────────────────────────
-fig1, ax = plt.subplots(figsize=(11, 6))
+# ── Figure 1 (hero): CESI vs WTI — both normalised, single axis ──
+PAL_CESI_HERO = '#0B3D91'   # deep blue
+PAL_WTI_HERO  = '#E65100'   # strong orange
+
+fig1, ax = plt.subplots(figsize=(13, 7.2))
 fig1.patch.set_facecolor('white')
 ax.set_facecolor('white')
 
-l1, = ax.plot(YEARS, [CESI[y] for y in YEARS], color=PAL_CESI, linewidth=3.2,
-              label='CESI (1980 = 100)')
-ax.set_ylabel('CESI (1980 = 100)', fontsize=13, color=PAL_CESI, fontweight='bold')
-ax.tick_params(axis='y', labelcolor=PAL_CESI, labelsize=11)
-ax.tick_params(axis='x', labelsize=11)
+cesi_series = [CESI[y]    for y in YEARS]
+wti_series  = [WTI_norm[y] for y in YEARS]
 
-axr = ax.twinx()
-l2, = axr.plot(YEARS, [wti_real_2023[y] for y in YEARS], color=PAL_WTI,
-               linewidth=2.6, label='WTI real (2023 USD/bbl)')
-axr.set_ylabel('WTI real (2023 USD/bbl)', fontsize=13, color=PAL_WTI, fontweight='bold')
-axr.tick_params(axis='y', labelcolor=PAL_WTI, labelsize=11)
+# Post-2005 divergence highlight
+ax.axvspan(2005, 2023, color='#FFE0B2', alpha=0.35, zorder=0)
 
-ax.set_title('Structural Energy Stress vs Oil Prices', fontsize=17,
-             fontweight='bold', loc='left', pad=14, color='#111111')
+ax.plot(YEARS, cesi_series, color=PAL_CESI_HERO, linewidth=4.0,
+        label='CESI (energy stress)', zorder=5)
+ax.plot(YEARS, wti_series, color=PAL_WTI_HERO, linewidth=4.0,
+        label='WTI real oil price', zorder=4)
+
+# Annotation for divergence era
+y_top = max(max(cesi_series), max(wti_series)) * 1.02
+ax.annotate('Post-2005 divergence:\nstress keeps rising as\noil prices cycle',
+            xy=(2014, (CESI[2014] + WTI_norm[2014]) / 2),
+            xytext=(2007, y_top * 0.78),
+            fontsize=14, color='#5D4037', fontweight='bold',
+            ha='left', va='top',
+            arrowprops=dict(arrowstyle='->', color='#5D4037', lw=1.5))
+
+ax.set_title('Energy Stress Rising Despite Oil Price Cycles',
+             fontsize=22, fontweight='bold', loc='left', pad=16, color='#0B0B0B')
+ax.set_ylabel('Index (1980 = 100)', fontsize=16, fontweight='bold')
+ax.set_xlabel('Year', fontsize=16, fontweight='bold')
 ax.set_xlim(1980, 2023)
 ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
-ax.grid(True, which='major', axis='y', alpha=0.18, linewidth=0.8)
-for spine in ('top',):
+ax.tick_params(axis='both', labelsize=14)
+ax.grid(True, which='major', axis='y', alpha=0.22, linewidth=0.8)
+for spine in ('top', 'right'):
     ax.spines[spine].set_visible(False)
-    axr.spines[spine].set_visible(False)
-
-ax.legend([l1, l2], [l1.get_label(), l2.get_label()],
-          fontsize=11, loc='upper left', frameon=False)
+ax.legend(fontsize=15, loc='upper left', frameon=False)
 
 fig1.tight_layout()
-_save(fig1, 'CESI_vs_WTI')
+_save(fig1, 'CESI_vs_WTI', dpi=320)
 plt.close(fig1)
 
 
