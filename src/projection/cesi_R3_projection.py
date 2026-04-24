@@ -1,5 +1,5 @@
 """
-CESI R3 — CAUSAL-ISOLATION PROJECTION + IMPLICATION LAYER
+CESI R3: CAUSAL-ISOLATION PROJECTION + IMPLICATION LAYER
 ==========================================================
 Per GPT redesign: instead of one "thesis-breaker" projection that mixes
 mechanisms, run four CAUSAL-ISOLATION scenarios (C1-C4) plus three
@@ -8,15 +8,15 @@ trajectories of the four real-economy anchors validated in Test 4
 (Energy CPI, Food, Fertilisers, Real Wages).
 
 CAUSAL ISOLATION (each freezes ONE mechanism, others on baseline trend):
-  C1  EROI freeze       — EROI stays at 2023=9          (isolates EROI decline)
-  C2  R/P stabilises    — reserves track production     (isolates reserve drag)
-  C3  Demand plateau    — E,X,I,P stay at 2023 levels   (isolates demand growth)
-  C4  Everything frozen — true null control             (isolates baseline inertia)
+  C1  EROI freeze      : EROI stays at 2023=9          (isolates EROI decline)
+  C2  R/P stabilises   : reserves track production     (isolates reserve drag)
+  C3  Demand plateau   : E,X,I,P stay at 2023 levels   (isolates demand growth)
+  C4  Everything frozen: true null control             (isolates baseline inertia)
 
 REGIME BUNDLES:
-  Pessimistic — EROI -> 5, R/P -> 35, demand at historical CAGR
-  Central     — linear continuation of all trends
-  Optimistic  — EROI recovers to 12, demand plateau 2035, reserves stable
+  Pessimistic: EROI -> 5, R/P -> 35, demand at historical CAGR
+  Central    : linear continuation of all trends
+  Optimistic : EROI recovers to 12, demand plateau 2035, reserves stable
 
 IMPLICATION LAYER:
   Calibrate log-log elasticities from 1980-2023 (5yr smoothed) for each
@@ -25,10 +25,10 @@ IMPLICATION LAYER:
   bands, NOT annual forecasts.
 
 Outputs:
-  cesi_R3_paths.csv         — annual CESI per scenario
-  cesi_R3_implications.csv  — implied indicator paths per scenario
-  cesi_R3_elasticities.csv  — fitted log-log betas
-  CESI_R3_projection.png/.svg — six-panel dashboard
+  cesi_R3_paths.csv        : annual CESI per scenario
+  cesi_R3_implications.csv : implied indicator paths per scenario
+  cesi_R3_elasticities.csv : fitted log-log betas
+  CESI_R3_projection.png/.svg: six-panel dashboard
 """
 import csv
 import numpy as np
@@ -135,18 +135,18 @@ def build_eroi_path(mode):
         for y in YEARS_FUT:
             v = max(5.0, v - 0.15)
             fut[y] = v
-    elif mode == "freeze":   # C1 — EROI fixed at 9
+    elif mode == "freeze":   # C1: EROI fixed at 9
         for y in YEARS_FUT: fut[y] = 9.0
-    elif mode == "decline_steep":  # Pessimistic — -0.25/yr to floor 5
+    elif mode == "decline_steep":  # Pessimistic: -0.25/yr to floor 5
         v = hist[2023]
         for y in YEARS_FUT:
             v = max(5.0, v - 0.25)
             fut[y] = v
-    elif mode == "recover":  # Optimistic — climbs back to 12 by 2050
+    elif mode == "recover":  # Optimistic: climbs back to 12 by 2050
         v0, v1 = hist[2023], 12.0
         for i, y in enumerate(YEARS_FUT, start=1):
             fut[y] = v0 + (v1 - v0) * (i / len(YEARS_FUT))
-    elif mode == "frozen_2023":  # C4 — exactly 9 (same as freeze, kept for clarity)
+    elif mode == "frozen_2023":  # C4: exactly 9 (same as freeze, kept for clarity)
         for y in YEARS_FUT: fut[y] = 9.0
     return {**hist, **fut}
 
@@ -278,7 +278,7 @@ with open("cesi_R3_elasticities.csv","w",newline="") as f:
 # 7. DASHBOARD (six-panel)
 # ===================================================================
 fig = plt.figure(figsize=(20,12))
-fig.suptitle("CESI R3 — Causal-Isolation Projection + Real-Economy Implications  (2024-2050)",
+fig.suptitle("CESI R3: Causal-Isolation Projection + Real-Economy Implications  (2024-2050)",
              fontsize=14, fontweight="bold")
 
 ISO_COLOURS = {"C1 EROI freeze":"#1f77b4","C2 R/P stabilises":"#2ca02c",
@@ -291,7 +291,7 @@ ax1.plot(YEARS_HIST, [CESI_HIST[y] for y in YEARS_HIST], "k-", lw=2.0, label="Hi
 for s,c in ISO_COLOURS.items():
     ax1.plot(YEARS_FUT, [scenario_paths[s][y] for y in YEARS_FUT], color=c, lw=1.6, label=s)
 ax1.axvline(2023, color="grey", ls=":", alpha=0.5)
-ax1.set_title("Causal Isolation — which mechanism drives CESI?", fontsize=11)
+ax1.set_title("Causal Isolation: which mechanism drives CESI?", fontsize=11)
 ax1.set_ylabel("CESI (1980=100)"); ax1.legend(fontsize=8, loc="upper left")
 ax1.grid(alpha=0.3)
 
@@ -301,7 +301,7 @@ ax2.plot(YEARS_HIST, [CESI_HIST[y] for y in YEARS_HIST], "k-", lw=2.0, label="Hi
 for s,c in REG_COLOURS.items():
     ax2.plot(YEARS_FUT, [scenario_paths[s][y] for y in YEARS_FUT], color=c, lw=2.0, label=s)
 ax2.axvline(2023, color="grey", ls=":", alpha=0.5)
-ax2.set_title("Regime Bundles — Pessimistic / Central / Optimistic", fontsize=11)
+ax2.set_title("Regime Bundles: Pessimistic / Central / Optimistic", fontsize=11)
 ax2.set_ylabel("CESI (1980=100)"); ax2.legend(fontsize=9)
 ax2.grid(alpha=0.3)
 
@@ -356,13 +356,13 @@ for c in ["C1 EROI freeze","C2 R/P stabilises","C3 Demand plateau"]:
 
 rows = [
     ["Scenario", "CESI 2050", "vs 2023", "% of Central rise"],
-    ["Historical 2023", f"{base_2023:.0f}", "—", "—"],
-    ["—" * 4, "", "", ""],
+    ["Historical 2023", f"{base_2023:.0f}", "-", "-"],
+    ["-" * 4, "", "", ""],
     ["C1 EROI freeze",     f"{cesi_2050['C1 EROI freeze']:.0f}",     f"{cesi_2050['C1 EROI freeze']-base_2023:+.0f}",     f"removes {contrib['C1 EROI freeze']:.0f}%"],
     ["C2 R/P stabilises",  f"{cesi_2050['C2 R/P stabilises']:.0f}",  f"{cesi_2050['C2 R/P stabilises']-base_2023:+.0f}",  f"removes {contrib['C2 R/P stabilises']:.0f}%"],
     ["C3 Demand plateau",  f"{cesi_2050['C3 Demand plateau']:.0f}",  f"{cesi_2050['C3 Demand plateau']-base_2023:+.0f}",  f"removes {contrib['C3 Demand plateau']:.0f}%"],
     ["C4 All frozen",      f"{cesi_2050['C4 All frozen']:.0f}",      f"{cesi_2050['C4 All frozen']-base_2023:+.0f}",      "control"],
-    ["—" * 4, "", "", ""],
+    ["-" * 4, "", "", ""],
     ["Pessimistic",        f"{cesi_2050['Pessimistic']:.0f}",        f"{cesi_2050['Pessimistic']-base_2023:+.0f}",        ""],
     ["Central",            f"{cesi_2050['Central']:.0f}",            f"{cesi_2050['Central']-base_2023:+.0f}",            ""],
     ["Optimistic",         f"{cesi_2050['Optimistic']:.0f}",         f"{cesi_2050['Optimistic']-base_2023:+.0f}",         ""],
@@ -381,7 +381,7 @@ plt.savefig("CESI_R3_projection.svg", bbox_inches="tight")
 # 8. CONSOLE SUMMARY
 # ===================================================================
 print("\n" + "="*78)
-print("CESI R3 — PROJECTION RESULTS")
+print("CESI R3: PROJECTION RESULTS")
 print("="*78)
 print(f"\n{'Scenario':25s} {'CESI 2023':>10} {'CESI 2050':>10} {'Delta':>10} {'CAGR%':>8}")
 print("-"*78)

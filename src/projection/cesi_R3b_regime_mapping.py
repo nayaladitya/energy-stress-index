@@ -1,5 +1,5 @@
 """
-CESI R3b — REGIME MAPPING (replaces elasticity projection layer)
+CESI R3b: REGIME MAPPING (replaces elasticity projection layer)
 ==================================================================
 Per critique: log-log elasticity projections imply proportional scaling
 that Test 4's weak diff-on-diff results do NOT support. Replace with
@@ -17,9 +17,9 @@ Key validity rule:
   If CESI(t) within historical range -> map to corresponding regime band
 
 Outputs:
-  cesi_R3b_regimes.csv         — quintile thresholds + indicator distributions
-  cesi_R3b_classification.csv  — each scenario-year classified
-  CESI_R3b_regime_map.png/.svg — regime map dashboard
+  cesi_R3b_regimes.csv        : quintile thresholds + indicator distributions
+  cesi_R3b_classification.csv : each scenario-year classified
+  CESI_R3b_regime_map.png/.svg: regime map dashboard
 """
 import csv
 import numpy as np
@@ -147,7 +147,7 @@ with open("cesi_R3b_classification.csv","w",newline="") as f:
 # 5. DASHBOARD
 # ===================================================================
 fig = plt.figure(figsize=(20,11))
-fig.suptitle("CESI R3b — Regime Mapping (replaces proportional elasticity projection)",
+fig.suptitle("CESI R3b: Regime Mapping (replaces proportional elasticity projection)",
              fontsize=14, fontweight="bold")
 
 REG_COLOURS = {"Pessimistic":"#d62728","Central":"#ff7f0e","Optimistic":"#17becf"}
@@ -240,7 +240,7 @@ tbl = ax5.table(cellText=rows, colWidths=[0.32,0.14,0.18,0.20,0.16], loc="center
 tbl.auto_set_font_size(False); tbl.set_fontsize(9); tbl.scale(1, 1.5)
 for j in range(5):
     tbl[(0,j)].set_facecolor("#404040"); tbl[(0,j)].set_text_props(color="white", weight="bold")
-ax5.set_title("Validity Audit — how much of each path is OFF-CHART?", fontsize=11, pad=20)
+ax5.set_title("Validity Audit: how much of each path is OFF-CHART?", fontsize=11, pad=20)
 
 # --- Panel 6: principle text ---
 ax6 = plt.subplot(2,3,6); ax6.axis("off")
@@ -292,7 +292,7 @@ for ind in INDICATORS:
             print(f"  {q:10s} {s['n']:>3} {s['p25']:>8.1f} {s['median']:>8.1f} {s['p75']:>8.1f}   {yrs}")
 
 print("\n" + "="*78)
-print("VALIDITY AUDIT — % of 2024-2050 in OFF-CHART regime")
+print("VALIDITY AUDIT: % of 2024-2050 in OFF-CHART regime")
 print("="*78)
 for s in ["Optimistic","C4 All frozen","C1 EROI freeze","C3 Demand plateau",
           "Central","C2 R/P stabilises","Pessimistic"]:

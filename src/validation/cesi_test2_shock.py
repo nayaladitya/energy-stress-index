@@ -1,5 +1,5 @@
 """
-CESI TEST 2 — SHOCK RESPONSE VALIDATION
+CESI TEST 2: SHOCK RESPONSE VALIDATION
 =========================================
 
 Objective: Demonstrate that CESI responds appropriately to known energy
@@ -34,7 +34,7 @@ import csv
 from datetime import date
 
 # ============================================================
-# 1. MONTHLY DATA — sourced from FRED, EIA, OECD, BP/Energy Inst
+# 1. MONTHLY DATA: sourced from FRED, EIA, OECD, BP/Energy Inst
 # ============================================================
 # Coverage: 2000-01 to 2024-12 (300 months)
 
@@ -346,7 +346,7 @@ cesi_diffs = np.diff(cesi_series)
 cesi_sd = float(np.std(cesi_diffs))
 
 print("="*68)
-print("CESI TEST 2 — SHOCK RESPONSE VALIDATION")
+print("CESI TEST 2: SHOCK RESPONSE VALIDATION")
 print("="*68)
 print(f"\nMonthly CESI series: {len(MONTHS)} months ({MONTHS[0]} to {MONTHS[-1]})")
 print(f"CESI 2000-01: {CESI[(2000,1)]:.2f}")
@@ -402,7 +402,7 @@ def evaluate(s, r):
         return r["peak_dev"] < 0 and abs(r["peak_z"]) > 0.5
     if s["name"] == "2014-16 Shale Crash":
         # Demand intact + supply expanding -> CESI flat or modest rise
-        # (NO sharp drop — that would falsify the demand-driven thesis)
+        # (NO sharp drop: that would falsify the demand-driven thesis)
         return r["peak_dev"] >= -2.0   # i.e. did NOT collapse
     if s["name"] == "2020 COVID Demand Collapse":
         # Sharpest demand shock in modern era -> CESI must drop materially
@@ -425,7 +425,7 @@ for s, r in zip(SHOCKS, results):
 print(f"\nOVERALL: {n_pass} / {len(SHOCKS)} PASS")
 
 # ============================================================
-# 8. VISUALISATION — 4-PANEL DASHBOARD
+# 8. VISUALISATION: 4-PANEL DASHBOARD
 # ============================================================
 dates = [date(y, m, 15) for (y,m) in MONTHS]
 cesi_vals = [CESI[(y,m)] for (y,m) in MONTHS]
@@ -441,7 +441,7 @@ GREEN   = "#27AE60"
 GREY    = "#7F8C8D"
 
 fig = plt.figure(figsize=(15, 11))
-fig.suptitle("CESI TEST 2 — SHOCK RESPONSE VALIDATION (2000-2024 monthly)",
+fig.suptitle("CESI TEST 2: SHOCK RESPONSE VALIDATION (2000-2024 monthly)",
              fontsize=14, fontweight="bold", color=ACCENT)
 
 # Panel 1: CESI vs WTI with shock windows shaded
@@ -468,9 +468,9 @@ ax1.grid(True, alpha=0.3)
 
 # Panel 2: Monthly demand components (X, I) normalised
 ax2 = fig.add_subplot(2, 2, 2)
-ax2.plot(dates, x_vals, color=ACCENT2, lw=1.2, label="X — OECD electricity (norm)")
-ax2.plot(dates, i_vals, color="#8E44AD", lw=1.2, label="I — US INDPRO (norm)")
-ax2.plot(dates, d_vals, color=ACCENT, lw=1.8, label="D — composite demand")
+ax2.plot(dates, x_vals, color=ACCENT2, lw=1.2, label="X: OECD electricity (norm)")
+ax2.plot(dates, i_vals, color="#8E44AD", lw=1.2, label="I: US INDPRO (norm)")
+ax2.plot(dates, d_vals, color=ACCENT, lw=1.8, label="D: composite demand")
 for s, c in zip(SHOCKS, shock_colors):
     pre_d  = date(s["pre"][0],  s["pre"][1],  1)
     post_d = date(s["post"][0], s["post"][1], 28)

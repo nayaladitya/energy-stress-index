@@ -1,5 +1,5 @@
 """
-CESI R5 — MEANING & UNIQUENESS TEST
+CESI R5: MEANING & UNIQUENESS TEST
 ====================================
 Final pre-writing check. Three questions:
 
@@ -89,10 +89,10 @@ def fit_ols(X, y):
     return b, r2, float(np.std(y-yhat))
 
 # ===================================================================
-# M1 — CESI vs ENERGY INTENSITY / PER CAPITA
+# M1: CESI vs ENERGY INTENSITY / PER CAPITA
 # ===================================================================
 print("\n" + "="*78)
-print("M1 — Does CESI add signal beyond E-intensity / E-per-capita?")
+print("M1: Does CESI add signal beyond E-intensity / E-per-capita?")
 print("="*78)
 
 # Path correlations
@@ -131,10 +131,10 @@ for name, x in [("+ E_intensity", ei_log), ("+ E_per_capita", epc_log)]:
     print(f"    R^2 {name:18s} = {r2_with:.3f}   delta = {delta:+.3f}")
 
 # ===================================================================
-# M2 — WAGE CHANNEL STABILITY
+# M2: WAGE CHANNEL STABILITY
 # ===================================================================
 print("\n" + "="*78)
-print("M2 — Is the CESI->wage channel stable across sub-periods?")
+print("M2: Is the CESI->wage channel stable across sub-periods?")
 print("="*78)
 
 # Use detrended-residual partial correlation, period-split
@@ -171,7 +171,7 @@ for label, yrs in [("Full 1980-2023", YEARS_FULL),
 
 # Horse race: predict log(wages) from CESI vs simpler macro
 print("\n" + "="*78)
-print("M2b — Horse race for predicting real wages (full sample R^2)")
+print("M2b: Horse race for predicting real wages (full sample R^2)")
 print("="*78)
 w = [np.log(REAL_WAGES[y]) for y in YEARS_FULL]
 predictors = {
@@ -200,10 +200,10 @@ print(f"\n  Best single predictor:  ", max(m2b_results, key=lambda r: r[1])[0],
       f"(R^2 = {max(m2b_results, key=lambda r: r[1])[1]:.3f})")
 
 # ===================================================================
-# M3 — One-sentence meaning (text-only)
+# M3: One-sentence meaning (text-only)
 # ===================================================================
 M3_TEXT = """
-M3 — ONE-SENTENCE MEANING OF CESI (post-pressure-test)
+M3: ONE-SENTENCE MEANING OF CESI (post-pressure-test)
 
 Candidate definitions, ranked by defensibility given R1-R5 evidence:
 
@@ -248,7 +248,7 @@ with open("cesi_R5_meaning.csv","w",newline="") as f:
 # DASHBOARD
 # ===================================================================
 fig = plt.figure(figsize=(20,11))
-fig.suptitle("CESI R5 — Meaning & Uniqueness Test  (E-intensity / Wage stability / Horse race)",
+fig.suptitle("CESI R5: Meaning & Uniqueness Test  (E-intensity / Wage stability / Horse race)",
              fontsize=14, fontweight="bold")
 
 # --- Panel 1: M1 incremental R^2 ---
@@ -261,7 +261,7 @@ ax1.bar(x-0.20, r2_a, width=0.4, color="#3498db", label="R^2 (predictor alone)")
 ax1.bar(x+0.20, r2_w, width=0.4, color="#e74c3c", label="R^2 (predictor + CESI)")
 ax1.set_xticks(x); ax1.set_xticklabels(labels, fontsize=10)
 ax1.set_ylabel("R^2 for log(real wages)")
-ax1.set_title("M1 — Does CESI add R^2 beyond simpler energy variables?", fontsize=11)
+ax1.set_title("M1: Does CESI add R^2 beyond simpler energy variables?", fontsize=11)
 ax1.legend(fontsize=9); ax1.grid(alpha=0.3, axis="y")
 for i,(a,wv) in enumerate(zip(r2_a, r2_w)):
     ax1.text(i-0.20, a+0.015, f"{a:.2f}", ha="center", fontsize=9)
@@ -282,7 +282,7 @@ ax2.bar(x,      part, width=0.25, color="#e74c3c", label="rho|GDP,M2")
 ax2.bar(x+0.25, diff, width=0.25, color="#2ecc71", label="diff-on-diff rho")
 ax2.set_xticks(x); ax2.set_xticklabels(labels, fontsize=9)
 ax2.set_ylabel("Pearson rho (CESI vs Real Wages)")
-ax2.set_title("M2 — Wage channel: stable across sub-periods?", fontsize=11)
+ax2.set_title("M2: Wage channel: stable across sub-periods?", fontsize=11)
 ax2.axhline(0, color="black", lw=0.6)
 ax2.legend(fontsize=9); ax2.grid(alpha=0.3, axis="y")
 
@@ -296,7 +296,7 @@ ax3.bar(x-0.20, r2_a, width=0.4, color="#3498db", label="alone")
 ax3.bar(x+0.20, r2_w, width=0.4, color="#e74c3c", label="+ CESI")
 ax3.set_xticks(x); ax3.set_xticklabels(labels, rotation=20, ha="right", fontsize=9)
 ax3.set_ylabel("R^2 for log(real wages)")
-ax3.set_title("M2b — Horse race: best single predictor of real wages", fontsize=11)
+ax3.set_title("M2b: Horse race: best single predictor of real wages", fontsize=11)
 ax3.legend(fontsize=9); ax3.grid(alpha=0.3, axis="y")
 for i,(a,wv) in enumerate(zip(r2_a, r2_w)):
     ax3.text(i-0.20, a+0.015, f"{a:.2f}", ha="center", fontsize=8)
@@ -306,7 +306,7 @@ for i,(a,wv) in enumerate(zip(r2_a, r2_w)):
 ax4 = plt.subplot(2,2,4); ax4.axis("off")
 ax4.text(0.02, 0.98, M3_TEXT.strip(), fontsize=8.5, family="monospace", va="top",
          bbox=dict(boxstyle="round,pad=0.6", facecolor="#fff8dc", edgecolor="#888"))
-ax4.set_title("M3 — One-sentence meaning of CESI (write before publishing)", fontsize=11, pad=20)
+ax4.set_title("M3: One-sentence meaning of CESI (write before publishing)", fontsize=11, pad=20)
 
 plt.tight_layout(rect=[0,0,1,0.96])
 plt.savefig("CESI_R5_meaning.png", dpi=140, bbox_inches="tight")

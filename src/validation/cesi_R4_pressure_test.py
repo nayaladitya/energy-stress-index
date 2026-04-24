@@ -1,25 +1,25 @@
 """
-CESI R4 — PRESSURE TEST
+CESI R4: PRESSURE TEST
 ========================
 Hostile-referee test suite. Four checks before paper consolidation:
 
-  P1  CONTROL TEST — does CESI add explanatory power for real-economy
+  P1  CONTROL TEST: does CESI add explanatory power for real-economy
                      stress AFTER controlling for global real GDP and
                      global broad money? (partial correlation)
 
-  P2  SPURIOUS CORRELATION — does CESI also correlate with variables
+  P2  SPURIOUS CORRELATION: does CESI also correlate with variables
                      it should NOT track (internet users, urbanisation,
                      literacy)? If yes, CESI is a time proxy.
 
-  P3  E-ONLY NULL — construct CESI_E = E/S (energy alone, no demand
+  P3  E-ONLY NULL: construct CESI_E = E/S (energy alone, no demand
                      composite). Does the 4-component design add value?
 
-  P4  FALSIFICATION — write three explicit conditions that would
+  P4  FALSIFICATION: write three explicit conditions that would
                      refute CESI (not a test, a statement of disprovability).
 
 Outputs:
-  cesi_R4_pressure.csv          — all numerical results
-  CESI_R4_pressure.png/.svg     — four-panel dashboard
+  cesi_R4_pressure.csv         : all numerical results
+  CESI_R4_pressure.png/.svg    : four-panel dashboard
 """
 import csv
 import numpy as np
@@ -120,10 +120,10 @@ def partial_corr(x, y, controls):
     return pearson(rx, ry)
 
 # ===================================================================
-# P1 — CONTROL TEST: partial correlation given GDP and M2
+# P1: CONTROL TEST: partial correlation given GDP and M2
 # ===================================================================
 print("="*78)
-print("P1 — CONTROL TEST: partial correlation given GDP and M2")
+print("P1: CONTROL TEST: partial correlation given GDP and M2")
 print("="*78)
 
 INDICATORS = {
@@ -154,10 +154,10 @@ for name, ind in INDICATORS.items():
     print(f"{name:15s} {rho_raw:+10.3f} {rho_gdp:+10.3f} {rho_m2:+10.3f} {rho_both:+12.3f}  {verdict}")
 
 # ===================================================================
-# P2 — SPURIOUS CORRELATION: CESI vs should-not-correlate variables
+# P2: SPURIOUS CORRELATION: CESI vs should-not-correlate variables
 # ===================================================================
 print("\n" + "="*78)
-print("P2 — SPURIOUS: CESI vs technology / development indicators")
+print("P2: SPURIOUS: CESI vs technology / development indicators")
 print("="*78)
 
 NON_INDICATORS = {
@@ -171,7 +171,7 @@ print("-"*78)
 for name, ind in NON_INDICATORS.items():
     ys = common(CESI_HIST, ind, GDP_REAL, M2)
     cl = [np.log(CESI_HIST[y]) for y in ys]
-    il = [ind[y] for y in ys]   # not log — these are %
+    il = [ind[y] for y in ys]   # not log: these are %
     g  = [np.log(GDP_REAL[y]) for y in ys]
     m  = [np.log(M2[y])       for y in ys]
     rho_raw  = pearson(cl, il)
@@ -183,10 +183,10 @@ for name, ind in NON_INDICATORS.items():
     print(f"{name:22s} {rho_raw:+10.3f} {rho_gdp:+10.3f} {rho_both:+12.3f}  {concern}")
 
 # ===================================================================
-# P3 — E-ONLY NULL MODEL
+# P3: E-ONLY NULL MODEL
 # ===================================================================
 print("\n" + "="*78)
-print("P3 — E-ONLY NULL: does the 4-component composite add value?")
+print("P3: E-ONLY NULL: does the 4-component composite add value?")
 print("="*78)
 
 # Construct CESI_E = E/S using only energy as demand
@@ -222,10 +222,10 @@ for name, ind in INDICATORS.items():
     print(f"    {name:15s}  full={rho_full:+.3f}  E-only={rho_eonly:+.3f}  delta={delta:+.3f}  ({verdict})")
 
 # ===================================================================
-# P4 — FALSIFICATION CONDITIONS (text statement)
+# P4: FALSIFICATION CONDITIONS (text statement)
 # ===================================================================
 print("\n" + "="*78)
-print("P4 — FALSIFICATION CONDITIONS")
+print("P4: FALSIFICATION CONDITIONS")
 print("="*78)
 
 FALSIFIERS = [
@@ -266,7 +266,7 @@ with open("cesi_R4_pressure.csv","w",newline="") as f:
 # DASHBOARD
 # ===================================================================
 fig = plt.figure(figsize=(20,11))
-fig.suptitle("CESI R4 — Pressure Test  (Control / Spurious / E-only Null / Falsification)",
+fig.suptitle("CESI R4: Pressure Test  (Control / Spurious / E-only Null / Falsification)",
              fontsize=14, fontweight="bold")
 
 # --- P1 panel ---
@@ -281,7 +281,7 @@ ax1.axhline(0.30, color="grey", ls="--", lw=0.8, label="0.30 survival threshold"
 ax1.axhline(-0.30, color="grey", ls="--", lw=0.8)
 ax1.set_xticks(x); ax1.set_xticklabels(labels, rotation=10, fontsize=9)
 ax1.set_ylabel("Pearson rho (log-log)")
-ax1.set_title("P1 — Does CESI survive control for GDP and M2?", fontsize=11)
+ax1.set_title("P1: Does CESI survive control for GDP and M2?", fontsize=11)
 ax1.legend(fontsize=9); ax1.grid(alpha=0.3, axis="y")
 for i,(r,b) in enumerate(zip(raw, both)):
     ax1.text(i-0.20, r+0.02, f"{r:+.2f}", ha="center", fontsize=8)
@@ -298,7 +298,7 @@ ax2.bar(x+0.20, both, width=0.4, color="#e74c3c", label="rho | GDP, M2")
 ax2.axhline(0.50, color="red", ls="--", lw=0.8, label="time-proxy risk if > 0.50")
 ax2.set_xticks(x); ax2.set_xticklabels(labels, rotation=10, fontsize=9)
 ax2.set_ylabel("Pearson rho")
-ax2.set_title("P2 — Spurious correlation with non-stress variables?", fontsize=11)
+ax2.set_title("P2: Spurious correlation with non-stress variables?", fontsize=11)
 ax2.legend(fontsize=9); ax2.grid(alpha=0.3, axis="y")
 for i,(r,b) in enumerate(zip(raw, both)):
     ax2.text(i-0.20, r+0.02, f"{r:+.2f}", ha="center", fontsize=8)
@@ -308,7 +308,7 @@ for i,(r,b) in enumerate(zip(raw, both)):
 ax3 = plt.subplot(2,2,3)
 ax3.plot(YEARS, [CESI_HIST[y] for y in YEARS], "k-",  lw=2.0, label=f"CESI_full (4-comp)  2023={CESI_HIST[2023]:.0f}")
 ax3.plot(YEARS, [CESI_E[y]    for y in YEARS], "r--", lw=2.0, label=f"CESI_E (E/S only)    2023={CESI_E[2023]:.0f}")
-ax3.set_title(f"P3 — Full vs E-only null  (path log-log rho = {rho_path:+.3f})", fontsize=11)
+ax3.set_title(f"P3: Full vs E-only null  (path log-log rho = {rho_path:+.3f})", fontsize=11)
 ax3.set_ylabel("CESI (1980=100)"); ax3.legend(fontsize=9); ax3.grid(alpha=0.3)
 
 # Inset table for P3 indicator comparison
@@ -324,7 +324,7 @@ for j in range(4):
 
 # --- P4 panel: falsification text ---
 ax4 = plt.subplot(2,2,4); ax4.axis("off")
-text = "P4 — EXPLICIT FALSIFICATION CONDITIONS\n\n"
+text = "P4: EXPLICIT FALSIFICATION CONDITIONS\n\n"
 for f in FALSIFIERS:
     text += f"{f[0]}\n"
     for line in f[1:]:
@@ -332,7 +332,7 @@ for f in FALSIFIERS:
     text += "\n"
 ax4.text(0.02, 0.98, text, fontsize=8.5, family="monospace", va="top",
          bbox=dict(boxstyle="round,pad=0.6", facecolor="#fff8dc", edgecolor="#888"))
-ax4.set_title("P4 — Disprovability statement (paper requirement)", fontsize=11, pad=20)
+ax4.set_title("P4: Disprovability statement (paper requirement)", fontsize=11, pad=20)
 
 plt.tight_layout(rect=[0,0,1,0.96])
 plt.savefig("CESI_R4_pressure.png", dpi=140, bbox_inches="tight")

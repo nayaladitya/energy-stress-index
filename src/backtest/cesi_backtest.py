@@ -1,11 +1,11 @@
 """
-CESI BACKTEST — TEST 1: ANNUAL STRUCTURAL BACKTEST
+CESI BACKTEST: TEST 1: ANNUAL STRUCTURAL BACKTEST
 ===================================================
 Validates CESI 1980–2023 using only genuinely annual data.
 No interpolation. No proxies. No manufactured data points.
 
 Layer 2 simplified for annual frequency:
-  D = E_norm (energy consumption only — the direct measurement)
+  D = E_norm (energy consumption only: the direct measurement)
   S = (RP_norm × EROI_norm) / 100, with threshold adjustments
 
 Five structural validation tests scored 0–5.
@@ -22,7 +22,7 @@ import os
 YEARS = list(range(1980, 2024))
 
 # ================================================================
-# SERIES 1 — Global Primary Energy Consumption (EJ)
+# SERIES 1: Global Primary Energy Consumption (EJ)
 # Source: Energy Institute Statistical Review via OWID
 # ================================================================
 energy_twh = {
@@ -41,7 +41,7 @@ energy_twh = {
 E_ej = {y: energy_twh[y] * 0.0036 for y in YEARS}
 
 # ================================================================
-# SERIES 2 — Global Oil Proved Reserves (Billion Barrels)
+# SERIES 2: Global Oil Proved Reserves (Billion Barrels)
 # Source: US EIA International Energy Statistics via IndexMundi
 # ================================================================
 oil_reserves_official = {
@@ -66,7 +66,7 @@ for y in YEARS:
         oil_reserves_deflated[y] = oil_reserves_official[y] * 0.75
 
 # ================================================================
-# SERIES 3 — Global Oil Production (kbpd -> Gbbl/yr)
+# SERIES 3: Global Oil Production (kbpd -> Gbbl/yr)
 # Source: EIA International Energy Statistics via IndexMundi
 # ================================================================
 oil_prod_kbpd = {
@@ -89,7 +89,7 @@ RP_deflated = {y: oil_reserves_deflated[y] / oil_prod_gbbl[y] for y in YEARS}
 RP_official = {y: oil_reserves_official[y] / oil_prod_gbbl[y] for y in YEARS}
 
 # ================================================================
-# SERIES 4 — EROI Step Function
+# SERIES 4: EROI Step Function
 # Source: Hall et al. 2014, Brandt et al. 2013, Murphy & Hall 2010
 # Assigned as step function: each year uses most recent data point
 # ================================================================
@@ -108,7 +108,7 @@ def eroi_step(year):
 EROI = {y: eroi_step(y) for y in YEARS}
 
 # ================================================================
-# SERIES 5 — WTI Crude Oil Spot Price
+# SERIES 5: WTI Crude Oil Spot Price
 # Source: FRED WTISPLC / EIA
 # ================================================================
 wti_nominal = {
@@ -138,7 +138,7 @@ cpi_index = {
 wti_real_2023 = {y: wti_nominal[y] * (cpi_index[2023] / cpi_index[y]) for y in YEARS}
 
 # ================================================================
-# SERIES 6 — World GDP (constant 2015 USD, trillions)
+# SERIES 6: World GDP (constant 2015 USD, trillions)
 # Source: World Bank NY.GDP.MKTP.KD
 # ================================================================
 world_gdp = {
@@ -159,7 +159,7 @@ ei_gdp_index = {y: (world_gdp[y] * energy_intensity[y]) /
                     (world_gdp[1980] * energy_intensity[1980]) * 100 for y in YEARS}
 
 # ================================================================
-# STEP 3 — NORMALISATION (all to 1980 = 100)
+# STEP 3: NORMALISATION (all to 1980 = 100)
 # ================================================================
 E_1980 = E_ej[1980]
 RP_1980 = RP_deflated[1980]
@@ -398,7 +398,7 @@ with open(csv_path, 'w', newline='') as f:
         ])
 
 # ================================================================
-# PLOTS — Three GitHub-ready figures
+# PLOTS: Three GitHub-ready figures
 # ================================================================
 import os
 FIG_DIRS = [
@@ -432,7 +432,7 @@ def _save(fig, name, dpi=300):
                     pad_inches=0.35, facecolor='white')
 
 
-# ── Figure 1 (hero): CESI vs WTI — both normalised, single axis ──
+# ── Figure 1 (hero): CESI vs WTI: both normalised, single axis ──
 PAL_CESI_HERO = '#0B3D91'   # deep blue
 PAL_WTI_HERO  = '#E65100'   # strong orange
 

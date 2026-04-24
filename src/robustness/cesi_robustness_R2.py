@@ -1,14 +1,14 @@
 """
-CESI ROBUSTNESS SUITE — R2: STRUCTURAL VARIANTS
+CESI ROBUSTNESS SUITE: R2: STRUCTURAL VARIANTS
 ==================================================
 Tests CESI's survival under structural mutation, not parameter jitter.
 
-  V1. JACKKNIFE  — rebuild CESI four times, dropping one component each time
+  V1. JACKKNIFE : rebuild CESI four times, dropping one component each time
                    and renormalising remaining weights to sum=1.
                    Tests whether any single demand variable secretly drives
                    the index ("is CESI just an electricity index?").
 
-  V2. ALTERNATIVE PROXIES  — replace each demand component with a different
+  V2. ALTERNATIVE PROXIES : replace each demand component with a different
                              plausible proxy:
                                E -> final-energy (instead of primary)
                                X -> world cement production (heavy industry
@@ -16,20 +16,20 @@ Tests CESI's survival under structural mutation, not parameter jitter.
                                I -> Baltic Dry Index annual mean (freight)
                                P -> raw population (no per-capita weighting)
 
-  V3. PER-CAPITA  — CESI_pc = (D/P) / S.  Directly answers "is CESI just a
+  V3. PER-CAPITA : CESI_pc = (D/P) / S.  Directly answers "is CESI just a
                     population story?" If per-capita CESI also rises
                     monotonically, the population objection is dead.
 
   V4. SUPPLY-SIDE STRUCTURAL VARIANTS
-                  — Replace EROI step with continuous PCHIP
-                  — Replace OPEC haircut with the era-based opec_share()
+                 : Replace EROI step with continuous PCHIP
+                 : Replace OPEC haircut with the era-based opec_share()
                     function from energy_graph.py (more conservative)
-                  — Use undeflated reserves, see how bad it gets
+                 : Use undeflated reserves, see how bad it gets
 
 Outputs:
-  cesi_R2_runs.csv             — every variant + metrics
-  cesi_R2_paths.csv            — full CESI(t) for each variant
-  CESI_robustness_R2.png/.svg  — 4-panel dashboard
+  cesi_R2_runs.csv            : every variant + metrics
+  cesi_R2_paths.csv           : full CESI(t) for each variant
+  CESI_robustness_R2.png/.svg : 4-panel dashboard
 """
 
 import csv
@@ -94,7 +94,7 @@ def build_cesi(D_components, weights, supply_kwargs=None):
        weights: list of weights summing to 1.
        supply_kwargs: dict passed to compute_cesi for the supply side only
                       (we will hijack compute_cesi by overriding the
-                      D in post.) — simpler approach: replicate supply locally."""
+                      D in post.): simpler approach: replicate supply locally."""
     # Compute D
     D = {}
     for y in YEARS:
@@ -164,7 +164,7 @@ def add(run_id, family, cesi):
 # Baseline
 add("baseline", "baseline", baseline_cesi)
 
-# ---------- V1. JACKKNIFE — drop one component, rebalance ----------
+# ---------- V1. JACKKNIFE: drop one component, rebalance ----------
 labels = ["E", "X", "I", "P"]
 for drop_idx, lbl in enumerate(labels):
     keep_idx = [i for i in range(4) if i != drop_idx]
@@ -175,7 +175,7 @@ for drop_idx, lbl in enumerate(labels):
     cesi, _, _ = build_cesi(keep_components, keep_w)
     add(f"jackknife_drop_{lbl}", "jackknife", cesi)
 
-# ---------- V2. ALTERNATIVE PROXIES — swap one component, keep weight ----------
+# ---------- V2. ALTERNATIVE PROXIES: swap one component, keep weight ----------
 # Swap E -> final-energy
 comp_E_final = [(E_FINAL, E_FINAL[1980])] + baseline_components[1:]
 add("alt_E=final_energy", "alt_proxy",
@@ -186,7 +186,7 @@ comp_X_cement = [baseline_components[0], (CEMENT_MT, CEMENT_MT[1980])] + baselin
 add("alt_X=cement_Mt", "alt_proxy",
     build_cesi(comp_X_cement, baseline_w)[0])
 
-# Swap I -> Baltic Dry Index (very volatile — averaged in metrics)
+# Swap I -> Baltic Dry Index (very volatile: averaged in metrics)
 comp_I_bdi = baseline_components[:2] + [(BDI, BDI[1980])] + baseline_components[3:]
 add("alt_I=BalticDryIdx", "alt_proxy",
     build_cesi(comp_I_bdi, baseline_w)[0])
@@ -203,7 +203,7 @@ add("alt_ALL_swapped", "alt_proxy",
     build_cesi(comp_all_alt, baseline_w)[0])
 
 # ---------- V3. PER-CAPITA CESI ----------
-# CESI_pc = (D/P) / S — divide demand by raw population
+# CESI_pc = (D/P) / S: divide demand by raw population
 def build_cesi_per_capita():
     cesi_normal, D, S = build_cesi(baseline_components, baseline_w)
     pop_norm = {y: POPULATION[y]/POPULATION[1980] for y in YEARS}
@@ -220,7 +220,7 @@ add("supply_eroi_PCHIP", "supply_struct",
     build_cesi(baseline_components, baseline_w,
                supply_kwargs={"eroi_path_array": eroi_pchip_path()})[0])
 
-# Era-based OPEC share (energy_graph.py methodology — more conservative)
+# Era-based OPEC share (energy_graph.py methodology: more conservative)
 def era_haircut_cesi():
     def opec_share(y):
         if y < 1988: return 0.67
@@ -248,7 +248,7 @@ def era_haircut_cesi():
 
 add("supply_era_OPEC_share", "supply_struct", era_haircut_cesi())
 
-# Undeflated reserves (haircut = 0%) — known to fail in R1, included for context
+# Undeflated reserves (haircut = 0%): known to fail in R1, included for context
 add("supply_undeflated", "supply_struct",
     build_cesi(baseline_components, baseline_w,
                supply_kwargs={"haircut": 0.0})[0])
@@ -329,10 +329,10 @@ family_colors = {
 }
 
 fig = plt.figure(figsize=(15, 11))
-fig.suptitle(f"CESI ROBUSTNESS R2 — Structural Variants ({len(runs)} configurations)",
+fig.suptitle(f"CESI ROBUSTNESS R2: Structural Variants ({len(runs)} configurations)",
              fontsize=14, fontweight="bold", color=ACCENT)
 
-# Panel 1 — All paths overlaid
+# Panel 1: All paths overlaid
 ax1 = fig.add_subplot(2, 2, 1)
 for rid, fam, cesi, m in runs:
     vals = [cesi[y] for y in YEARS]
@@ -352,7 +352,7 @@ ax1.set_title("CESI(t) under structural variants", fontweight="bold")
 ax1.set_ylabel("CESI (1980=100)"); ax1.set_xlabel("Year")
 ax1.grid(True, alpha=0.3)
 
-# Panel 2 — Per-family bar chart of pass rates
+# Panel 2: Per-family bar chart of pass rates
 ax2 = fig.add_subplot(2, 2, 2)
 family_data = []
 for fam in families:
@@ -377,12 +377,12 @@ for bars in (b1, b2):
         ax2.text(b.get_x()+b.get_width()/2, b.get_height()+1,
                  f"{b.get_height():.0f}", ha="center", fontsize=8)
 
-# Panel 3 — Per-capita CESI alongside baseline (key chart)
+# Panel 3: Per-capita CESI alongside baseline (key chart)
 ax3 = fig.add_subplot(2, 2, 3)
 pc_run = next(r for r in runs if r[0] == "per_capita_CESI")
 ax3.plot(YEARS, [baseline_cesi[y] for y in YEARS], color=ACCENT, lw=2.4, label="baseline CESI")
 ax3.plot(YEARS, [pc_run[2][y] for y in YEARS], color=GREEN, lw=2.4, label="per-capita CESI")
-ax3.set_title("Per-capita variant — answers \"is this just population?\"", fontweight="bold")
+ax3.set_title("Per-capita variant: answers \"is this just population?\"", fontweight="bold")
 ax3.set_ylabel("Index (1980=100)"); ax3.set_xlabel("Year")
 ax3.grid(True, alpha=0.3); ax3.legend(loc="upper left")
 # Annotate
@@ -392,7 +392,7 @@ ax3.annotate(f"PC = {pc2023:.0f}\nbaseline = {b2023:.0f}",
              xy=(2023, pc2023), xytext=(2005, pc2023*0.7),
              fontsize=9, arrowprops=dict(arrowstyle="->", color=GREY))
 
-# Panel 4 — Summary table
+# Panel 4: Summary table
 ax4 = fig.add_subplot(2, 2, 4); ax4.axis("off")
 rows = [["Family", "n", "Crit A", "Crit C", "median rho", "median d%"]]
 for fam in families:

@@ -1,13 +1,13 @@
 """
-CESI ROBUSTNESS SUITE — R1: PARAMETER SENSITIVITY
+CESI ROBUSTNESS SUITE: R1: PARAMETER SENSITIVITY
 ===================================================
 One-at-a-time (OAT) sensitivity of CESI(1980-2023) to the five parameter axes:
 
-  AXIS 1 — demand weights (wE, wX, wI, wP)            ~30 runs
-  AXIS 2 — OPEC haircut  (0% .. 40%)                   9 runs
-  AXIS 3 — EROI path     (-20%..+20% endpoints, +PCHIP)  7 runs
-  AXIS 4 — thresholds    (R/P_crit, EROI_crit)          25 runs
-  AXIS 5 — base year     (1980, 1990, 2000)             3 runs
+  AXIS 1: demand weights (wE, wX, wI, wP)            ~30 runs
+  AXIS 2: OPEC haircut  (0% .. 40%)                   9 runs
+  AXIS 3: EROI path     (-20%..+20% endpoints, +PCHIP)  7 runs
+  AXIS 4: thresholds    (R/P_crit, EROI_crit)          25 runs
+  AXIS 5: base year     (1980, 1990, 2000)             3 runs
   Plus multi-axis stress combinations                   5 runs
 
 Per run we compute CESI(t) with full 4-component demand composite
@@ -16,9 +16,9 @@ underlying series from energy_graph.py (E, X, I, P) and cesi_backtest.py
 (reserves, production, EROI, WTI).
 
 Outputs:
-  cesi_robustness_runs.csv    — every run + key metrics
-  cesi_robustness_paths.csv   — full CESI(t) matrix for spaghetti plot
-  CESI_robustness_R1.png/.svg — 4-panel dashboard (tornado + spaghetti
+  cesi_robustness_runs.csv   : every run + key metrics
+  cesi_robustness_paths.csv  : full CESI(t) matrix for spaghetti plot
+  CESI_robustness_R1.png/.svg: 4-panel dashboard (tornado + spaghetti
                                 + pass-rate bar + cherry-pick percentile)
 """
 
@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 YEARS = list(range(1980, 2024))
 
 # =============================================================
-# DATA — identical sources to cesi_backtest.py + energy_graph.py
+# DATA: identical sources to cesi_backtest.py + energy_graph.py
 # =============================================================
 
 # --- E: primary energy EJ (EI/OWID, substitution method) ---
@@ -207,7 +207,7 @@ def metrics(cesi):
     cesi_1980 = cesi[YEARS[0]]
     cesi_2023 = cesi[YEARS[-1]]
 
-    # Criterion A — structural monotonic rise:
+    # Criterion A: structural monotonic rise:
     #   5-year rolling mean of CESI exhibits drawdown <= 5% of concurrent peak.
     #   This filters single-year recession noise (1982, 2009, 2020) and tests
     #   whether the underlying *trend* is monotonic, which is the actual claim.
@@ -226,7 +226,7 @@ def metrics(cesi):
         if dd_pct > max_dd_pct: max_dd_pct = dd_pct
     crit_A = (cesi_2023 > cesi_1980) and (max_dd_pct <= 0.05)
 
-    # Criterion C — rising decade-floor
+    # Criterion C: rising decade-floor
     decades = [(1980,1989),(1990,1999),(2000,2009),(2010,2019),(2020,2023)]
     floors = []
     for lo, hi in decades:
@@ -255,7 +255,7 @@ baseline_vals = [baseline_cesi[y] for y in YEARS]
 baseline_m = metrics(baseline_cesi)
 
 # =============================================================
-# AXIS 1 — WEIGHTS (OAT + a few cross-cuts)
+# AXIS 1: WEIGHTS (OAT + a few cross-cuts)
 # =============================================================
 WEIGHT_RUNS = []
 # Baseline
@@ -293,13 +293,13 @@ WEIGHT_RUNS.append(("EX_heavy",  (0.45,0.45,0.05,0.05)))
 WEIGHT_RUNS.append(("IP_heavy",  (0.05,0.05,0.45,0.45)))
 
 # =============================================================
-# AXIS 2 — OPEC HAIRCUT
+# AXIS 2: OPEC HAIRCUT
 # =============================================================
 HAIRCUT_RUNS = [(f"haircut_{int(h*100):02d}pct", h)
                 for h in [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40]]
 
 # =============================================================
-# AXIS 3 — EROI PATH
+# AXIS 3: EROI PATH
 # =============================================================
 def scale_eroi(points, scale_endpoint):
     """Scale endpoints while keeping 1980 start; linear mix on later points."""
@@ -327,7 +327,7 @@ EROI_RUNS.append(("eroi_all_p10pct",
 EROI_RUNS.append(("eroi_pchip_smooth", None, eroi_pchip_path()))
 
 # =============================================================
-# AXIS 4 — THRESHOLDS
+# AXIS 4: THRESHOLDS
 # =============================================================
 THRESH_RUNS = []
 for rp_c in [15, 18, 20, 22, 25]:
@@ -335,7 +335,7 @@ for rp_c in [15, 18, 20, 22, 25]:
         THRESH_RUNS.append((f"thr_rp{rp_c}_er{er_c}", rp_c, er_c))
 
 # =============================================================
-# AXIS 5 — BASE YEAR
+# AXIS 5: BASE YEAR
 # =============================================================
 BASE_RUNS = [("base_1980",1980),("base_1990",1990),("base_2000",2000)]
 
@@ -440,7 +440,7 @@ print(f"   Median rank-correlation      : {np.median(rank_corrs):.3f}")
 print(f"   p10 rank-correlation         : {np.percentile(rank_corrs,10):.3f}")
 
 # =============================================================
-# TORNADO — per-axis CESI_2023 range
+# TORNADO: per-axis CESI_2023 range
 # =============================================================
 AXES = ["weights","haircut","eroi","thresholds","base_year","stress"]
 tornado_data = []
@@ -486,7 +486,7 @@ GREEN   = "#27AE60"; RED     = "#C0392B"; GREY = "#7F8C8D"
 AMBER   = "#E67E22"
 
 fig = plt.figure(figsize=(15, 11))
-fig.suptitle(f"CESI ROBUSTNESS R1 — Parameter Sensitivity ({len(runs)} runs)",
+fig.suptitle(f"CESI ROBUSTNESS R1: Parameter Sensitivity ({len(runs)} runs)",
              fontsize=14, fontweight="bold", color=ACCENT)
 
 # Panel 1: Spaghetti plot
@@ -523,7 +523,7 @@ for i, (nm, lo, hi, rng) in enumerate(tornado_data):
 ax2.axvline(base_val, color="black", lw=1.2, ls="--")
 ax2.set_yticks(y_pos); ax2.set_yticklabels(names_ord)
 ax2.set_xlabel(f"CESI_2023 (baseline = {base_val:.1f})")
-ax2.set_title("Tornado — CESI_2023 range by axis", fontweight="bold")
+ax2.set_title("Tornado: CESI_2023 range by axis", fontweight="bold")
 ax2.grid(True, alpha=0.3, axis="x")
 ax2.invert_yaxis()
 

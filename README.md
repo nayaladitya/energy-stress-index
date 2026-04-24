@@ -5,7 +5,7 @@
 ![Paper: CC--BY--4.0](https://img.shields.io/badge/Paper-CC--BY--4.0-lightgrey)
 ![Release](https://img.shields.io/github/v/release/nayaladitya/energy-stress-index?include_prereleases)
 
-CESI (Civilisational Energy Stress Index) is a framework that separates long-run energy constraint into three components: EROI, reserves-to-production, and demand. Designed for mechanism analysis—not prediction.
+CESI (Civilisational Energy Stress Index) is a framework that separates long-run energy constraint into three components: EROI, reserves-to-production, and demand. Designed for mechanism analysis, not prediction.
 
 ## TL;DR
 
@@ -15,7 +15,7 @@ CESI (Civilisational Energy Stress Index) is a framework that separates long-run
 
 ## Why this matters
 
-The usual debate about long-run energy is framed as *how much oil is left*. CESI reframes it as *how much energy must be spent to get the next unit of energy out*. That shift, from resource scarcity to extraction efficiency, changes which mechanism looks binding and changes what a useful policy question looks like. **It shifts the constraint from availability to efficiency, changing which risks matter and when they bind.**
+The usual debate about long-run energy is framed as **how much oil is left**. CESI reframes it as **how much energy must be spent to get the next unit of energy out**. That shift, from resource scarcity to extraction efficiency, changes which mechanism looks binding and changes what a useful policy question looks like. **It shifts the constraint from availability to efficiency, changing which risks matter and when they bind.**
 
 <br>
 
@@ -66,7 +66,7 @@ Under baseline assumptions, declining EROI accounts for approximately **88%** of
 
 - **Not a forecasting model.** Past ~2035 under non-benign scenarios, CESI exits the 1980–2023 envelope and is reported as a regime label, not a point estimate.
 - **Not a tradable signal.** |ρ| < 0.12 against WTI, energy equities, gold, and S&P 500 across all monthly leads and lags (Section 8).
-- **Not a statistically superior predictor.** Primary energy and labour productivity match or beat CESI on standard fit criteria. The contribution is mechanism *separability*, not prediction (Section 11).
+- **Not a statistically superior predictor.** Primary energy and labour productivity match or beat CESI on standard fit criteria. The contribution is mechanism **separability**, not prediction (Section 11).
 
 ## Repository layout
 

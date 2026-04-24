@@ -1,7 +1,7 @@
 """
-CESI TEST 4 — REAL-ECONOMY LINKAGE
+CESI TEST 4: REAL-ECONOMY LINKAGE
 ========================================
-Does CESI correlate with — and ideally precede — observable real-economy
+Does CESI correlate with: and ideally precede: observable real-economy
 stress indicators at low frequency?
 
 Test indicators (annual, 1980-2023):
@@ -12,15 +12,15 @@ Test indicators (annual, 1980-2023):
     OECD Real Wages Index           (OECD MEI)
 
 Tests per indicator:
-    T1 — contemporaneous Pearson rho, annual frequency
-    T2 — smoothed rho (5-year rolling means)
-    T3 — lead-lag: does CESI at t predict indicator at t+k?
-    T4 — regime analysis: CESI quartile -> indicator distribution
+    T1: contemporaneous Pearson rho, annual frequency
+    T2: smoothed rho (5-year rolling means)
+    T3: lead-lag: does CESI at t predict indicator at t+k?
+    T4: regime analysis: CESI quartile -> indicator distribution
 
 Pass criteria (pre-specified):
-    STRONG    — |rho| > 0.60 (smoothed or leading) with 3+ indicators
-    MODERATE  — 0.30 < |rho| < 0.60 with 3+ indicators
-    WEAK      — |rho| < 0.30 across all indicators
+    STRONG   : |rho| > 0.60 (smoothed or leading) with 3+ indicators
+    MODERATE : 0.30 < |rho| < 0.60 with 3+ indicators
+    WEAK     : |rho| < 0.30 across all indicators
                   -> honest admission that CESI is internally consistent but
                      does not empirically link to measured real-economy stress
 """
@@ -214,7 +214,7 @@ results = {name: test_correlations(name, s) for name, s in INDICATORS.items()}
 # 4. REPORT
 # ==========================================================
 print("="*82)
-print("CESI TEST 4 — Real-Economy Linkage")
+print("CESI TEST 4: Real-Economy Linkage")
 print("="*82)
 
 def fmt(x):
@@ -277,9 +277,9 @@ print(f"  Sign matches hypothesis: {sign_matches}/{len(INDICATORS)}")
 if len(strong) + len(moderate) >= 3:
     print("\n  >>> VERDICT: CESI DOES empirically link to real-economy stress. <<<")
 elif len(strong) + len(moderate) >= 1:
-    print("\n  >>> VERDICT: PARTIAL linkage — some indicators link, others do not. <<<")
+    print("\n  >>> VERDICT: PARTIAL linkage: some indicators link, others do not. <<<")
 else:
-    print("\n  >>> VERDICT: WEAK linkage — acknowledge honestly in paper. <<<")
+    print("\n  >>> VERDICT: WEAK linkage: acknowledge honestly in paper. <<<")
 
 # ==========================================================
 # 5. CSV EXPORT
@@ -310,7 +310,7 @@ ACCENT="#1B3A5C"; ACCENT2="#2E75B6"; GREEN="#27AE60"; RED="#C0392B"
 GREY="#7F8C8D"; AMBER="#E67E22"; PURPLE="#8E44AD"; ORANGE="#D35400"
 
 fig = plt.figure(figsize=(16, 12))
-fig.suptitle("CESI TEST 4 — Real-Economy Linkage (1980-2023 annual)",
+fig.suptitle("CESI TEST 4: Real-Economy Linkage (1980-2023 annual)",
              fontsize=14, fontweight="bold", color=ACCENT)
 
 # --- Panel A: CESI vs each indicator, normalised overlay ---

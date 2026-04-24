@@ -1,13 +1,13 @@
 """
-CESI TEST 3 — LEAD/LAG CROSS-CORRELATION vs TRADED MARKETS
+CESI TEST 3: LEAD/LAG CROSS-CORRELATION vs TRADED MARKETS
 =============================================================
 Tests whether monthly CESI LEADS, COINCIDES, or LAGS traded markets:
 
-    WTI   — crude oil (FRED DCOILWTICO monthly mean)
-    BCOM  — Bloomberg Commodity Total Return Index (monthly close)
-    XLE   — Energy Select Sector SPDR ETF (monthly close, total-return adj.)
-    GOLD  — LBMA Gold Price PM fix (FRED GOLDAMGBD228NLBM monthly mean)
-    SPX   — S&P 500 Total Return (monthly close)
+    WTI  : crude oil (FRED DCOILWTICO monthly mean)
+    BCOM : Bloomberg Commodity Total Return Index (monthly close)
+    XLE  : Energy Select Sector SPDR ETF (monthly close, total-return adj.)
+    GOLD : LBMA Gold Price PM fix (FRED GOLDAMGBD228NLBM monthly mean)
+    SPX  : S&P 500 Total Return (monthly close)
 
 Method:
     1. Compute monthly log-returns for CESI and each market.
@@ -48,7 +48,7 @@ print(f"Loaded CESI monthly: {len(MONTHS)} months ({MONTHS[0]} to {MONTHS[-1]})"
 # Values sourced from FRED, Bloomberg, historical records
 # =============================================================
 
-# WTI — already in test 2 CSV
+# WTI: already in test 2 CSV
 WTI = {}
 with open("C:/Users/OMU/Desktop/Energy/cesi_test2_monthly.csv") as f:
     r = csv.DictReader(f)
@@ -240,10 +240,10 @@ GREY="#7F8C8D"; AMBER="#E67E22"
 colors_m = {"WTI": RED, "BCOM": AMBER, "XLE": "#8E44AD", "GOLD": "#F1C40F", "SPX": ACCENT2}
 
 fig = plt.figure(figsize=(15, 11))
-fig.suptitle("CESI TEST 3 — Lead/Lag Cross-Correlation vs Traded Markets (2000-2024)",
+fig.suptitle("CESI TEST 3: Lead/Lag Cross-Correlation vs Traded Markets (2000-2024)",
              fontsize=14, fontweight="bold", color=ACCENT)
 
-# Panel 1 — Cross-correlation function per market
+# Panel 1: Cross-correlation function per market
 ax1 = fig.add_subplot(2, 2, 1)
 for name, row in results.items():
     ks = [r[0] for r in row]; rhos = [r[1] for r in row]
@@ -261,7 +261,7 @@ ax1.text(0.02, 0.02, f"95% crit = +/-{crit:.3f}\nN = {N}",
          transform=ax1.transAxes, fontsize=8, va="bottom",
          bbox=dict(facecolor="white", alpha=0.9, edgecolor=GREY))
 
-# Panel 2 — Peak rho bar chart (absolute)
+# Panel 2: Peak rho bar chart (absolute)
 ax2 = fig.add_subplot(2, 2, 2)
 names  = [p[0] for p in peak_results]
 peaks  = [p[2] for p in peak_results]
@@ -285,7 +285,7 @@ ax2.set_title("Peak correlation and lag\n(GREEN=lead, AMBER=coincident, RED=lag,
               fontweight="bold")
 ax2.grid(True, alpha=0.3, axis="y")
 
-# Panel 3 — CESI monthly (level) vs WTI (twin axis)
+# Panel 3: CESI monthly (level) vs WTI (twin axis)
 ax3 = fig.add_subplot(2, 2, 3)
 dates = [date(y, m, 15) for (y, m) in MONTHS]
 cesi_vals = [CESI_MONTHLY[ym] for ym in MONTHS]
@@ -298,7 +298,7 @@ ax3b.set_ylabel("WTI $/bbl", color=RED); ax3b.tick_params(axis='y', labelcolor=R
 ax3.set_title("CESI vs WTI level (reference)", fontweight="bold")
 ax3.grid(True, alpha=0.3)
 
-# Panel 4 — Verdict table
+# Panel 4: Verdict table
 ax4 = fig.add_subplot(2, 2, 4); ax4.axis("off")
 rows_tbl = [["Market", "peak rho", "lag", "verdict"]]
 for name, k, rho, interp in peak_results:

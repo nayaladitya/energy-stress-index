@@ -68,7 +68,7 @@ ax.plot([0 + 0.4, 1 - 0.4], [cesi_2023, cesi_2023], color="grey", linestyle=":",
 ax.set_xticks(x)
 ax.set_xticklabels(labels, fontsize=10)
 ax.set_ylabel("CESI (1980 = 100)", fontsize=11)
-ax.set_title("R3 — Mechanism attribution of the Central 2024–2050 CESI rise\n"
+ax.set_title("R3: Mechanism attribution of the Central 2024–2050 CESI rise\n"
              "Within the CESI decomposition framework", fontsize=12, pad=12)
 ax.grid(axis="y", linestyle="--", alpha=0.4)
 _peak = max(cesi_2023 + eroi_contrib + demand_contrib, central_2050) + 250
