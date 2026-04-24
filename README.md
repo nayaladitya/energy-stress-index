@@ -17,9 +17,13 @@ CESI (Civilisational Energy Stress Index) is a framework that separates long-run
 
 The usual debate about long-run energy is framed as *how much oil is left*. CESI reframes it as *how much energy must be spent to get the next unit of energy out*. That shift, from resource scarcity to extraction efficiency, changes which mechanism looks binding and changes what a useful policy question looks like. **It shifts the constraint from availability to efficiency, changing which risks matter and when they bind.**
 
+<br>
+
 <p align="center">
-  <img src="paper/figures/CESI_vs_WTI.png" alt="Energy stress rising despite oil price cycles, 1980–2023" width="820">
+  <img src="paper/figures/CESI_vs_WTI.png" alt="Energy stress rising despite oil price cycles, 1980–2023" width="780">
 </p>
+
+<br>
 
 ## Results at a glance
 
@@ -34,19 +38,21 @@ The usual debate about long-run energy is framed as *how much oil is left*. CESI
 | EROI-attributed share of projected 2024–2050 rise | ~88% |
 | Year Central scenario exits historical envelope | ~2030–2032 |
 
+<br>
+
 <p align="center">
-  <img src="paper/figures/CESI_WTI_divergence.png" alt="CESI minus WTI divergence, 1980–2023" width="760">
+  <img src="paper/figures/CESI_WTI_divergence.png" alt="CESI minus WTI divergence, 1980–2023" width="780">
 </p>
 
-<p align="center"><em>Highlights the growing structural gap between energy stress and oil prices.</em></p>
+<p align="center">Shows the widening gap between energy stress and oil prices.</p>
 
 <br>
 
 <p align="center">
-  <img src="paper/figures/CESI_decomposition.png" alt="CESI decomposition into EROI, reserves-to-production, and demand" width="760">
+  <img src="paper/figures/CESI_decomposition.png" alt="CESI decomposition into EROI, reserves-to-production, and demand" width="780">
 </p>
 
-<p align="center"><em>Decomposes energy system stress into EROI, reserves-to-production, and demand.</em></p>
+<p align="center">Breaks energy system stress into EROI, reserves-to-production, and demand.</p>
 
 <br>
 
