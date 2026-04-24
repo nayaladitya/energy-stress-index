@@ -5,15 +5,25 @@
 ![Paper: CC--BY--4.0](https://img.shields.io/badge/Paper-CC--BY--4.0-lightgrey)
 ![Release](https://img.shields.io/github/v/release/nayaladitya/energy-stress-index?include_prereleases)
 
-CESI (Civilisational Energy Stress Index) is a framework that separates long-run energy constraint into three components: EROI, reserves-to-production, and demand. It is designed for mechanism analysis, not prediction.
+CESI (Civilisational Energy Stress Index) is a framework that separates long-run energy constraint into three components: EROI, reserves-to-production, and demand. Designed for mechanism analysis—not prediction.
+
+## TL;DR
+
+- CESI decomposes long-run energy constraint into EROI, reserves, and demand.
+- EROI decline accounts for roughly **88%** of the projected 2024–2050 stress rise.
+- The framework is for mechanism insight, not forecasting.
 
 ## Why this matters
 
-The usual debate about long-run energy is framed as *how much oil is left*. CESI reframes it as *how much energy must be spent to get the next unit of energy out*. That shift, from resource scarcity to extraction efficiency, changes which mechanism looks binding and changes what a useful policy question looks like.
+The usual debate about long-run energy is framed as *how much oil is left*. CESI reframes it as *how much energy must be spent to get the next unit of energy out*. That shift, from resource scarcity to extraction efficiency, changes which mechanism looks binding and changes what a useful policy question looks like. **It shifts the constraint from availability to efficiency, changing which risks matter and when they bind.**
 
-![CESI, 1980–2023](paper/figures/CESI_backtest.png)
+<p align="center">
+  <img src="paper/figures/CESI_backtest.png" alt="CESI, 1980–2023" width="620">
+</p>
 
 ## Results at a glance
+
+> **Key takeaway.** EROI decline explains approximately **88%** of the projected long-run constraint increase.
 
 | | |
 |---|---|
