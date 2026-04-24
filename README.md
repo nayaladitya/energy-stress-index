@@ -18,7 +18,7 @@ CESI (Civilisational Energy Stress Index) is a framework that separates long-run
 The usual debate about long-run energy is framed as *how much oil is left*. CESI reframes it as *how much energy must be spent to get the next unit of energy out*. That shift, from resource scarcity to extraction efficiency, changes which mechanism looks binding and changes what a useful policy question looks like. **It shifts the constraint from availability to efficiency, changing which risks matter and when they bind.**
 
 <p align="center">
-  <img src="paper/figures/CESI_backtest.png" alt="CESI, 1980–2023" width="620">
+  <img src="paper/figures/CESI_vs_WTI.png" alt="CESI vs WTI, 1980–2023" width="720">
 </p>
 
 ## Results at a glance

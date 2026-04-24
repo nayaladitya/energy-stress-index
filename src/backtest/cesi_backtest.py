@@ -398,7 +398,131 @@ with open(csv_path, 'w', newline='') as f:
         ])
 
 # ================================================================
-# PLOT — 4-Panel Dashboard
+# PLOTS — Three GitHub-ready figures
+# ================================================================
+import os
+FIG_DIRS = [
+    'C:/Users/OMU/Desktop/Energy/cesi/paper/figures',
+    'C:/Users/OMU/Desktop/Energy/cesi/results/figures',
+]
+for d in FIG_DIRS:
+    os.makedirs(d, exist_ok=True)
+
+# Consistent palette across all three figures
+PAL_CESI   = '#1F3A5F'   # navy
+PAL_WTI    = '#D4A017'   # amber
+PAL_DIV    = '#1F3A5F'   # navy (single dominant colour)
+PAL_EROI   = '#EF6C00'   # orange
+PAL_RP     = '#C62828'   # red
+PAL_DEMAND = '#1565C0'   # blue
+
+plt.rcParams.update({
+    'font.family': 'DejaVu Sans',
+    'axes.edgecolor': '#333333',
+    'axes.linewidth': 1.0,
+    'axes.labelcolor': '#222222',
+    'xtick.color': '#222222',
+    'ytick.color': '#222222',
+})
+
+
+def _save(fig, name):
+    for d in FIG_DIRS:
+        fig.savefig(f'{d}/{name}.png', dpi=220, bbox_inches='tight', facecolor='white')
+
+
+# ── Figure 1: CESI vs WTI ──────────────────────────────────────
+fig1, ax = plt.subplots(figsize=(11, 6))
+fig1.patch.set_facecolor('white')
+ax.set_facecolor('white')
+
+l1, = ax.plot(YEARS, [CESI[y] for y in YEARS], color=PAL_CESI, linewidth=3.2,
+              label='CESI (1980 = 100)')
+ax.set_ylabel('CESI (1980 = 100)', fontsize=13, color=PAL_CESI, fontweight='bold')
+ax.tick_params(axis='y', labelcolor=PAL_CESI, labelsize=11)
+ax.tick_params(axis='x', labelsize=11)
+
+axr = ax.twinx()
+l2, = axr.plot(YEARS, [wti_real_2023[y] for y in YEARS], color=PAL_WTI,
+               linewidth=2.6, label='WTI real (2023 USD/bbl)')
+axr.set_ylabel('WTI real (2023 USD/bbl)', fontsize=13, color=PAL_WTI, fontweight='bold')
+axr.tick_params(axis='y', labelcolor=PAL_WTI, labelsize=11)
+
+ax.set_title('Structural Energy Stress vs Oil Prices', fontsize=17,
+             fontweight='bold', loc='left', pad=14, color='#111111')
+ax.set_xlim(1980, 2023)
+ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
+ax.grid(True, which='major', axis='y', alpha=0.18, linewidth=0.8)
+for spine in ('top',):
+    ax.spines[spine].set_visible(False)
+    axr.spines[spine].set_visible(False)
+
+ax.legend([l1, l2], [l1.get_label(), l2.get_label()],
+          fontsize=11, loc='upper left', frameon=False)
+
+fig1.tight_layout()
+_save(fig1, 'CESI_vs_WTI')
+plt.close(fig1)
+
+
+# ── Figure 2: CESI–WTI Divergence ──────────────────────────────
+fig2, ax = plt.subplots(figsize=(11, 5.5))
+fig2.patch.set_facecolor('white')
+ax.set_facecolor('white')
+
+div_vals = [Divergence[y] for y in YEARS]
+ax.fill_between(YEARS, 0, div_vals, color=PAL_DIV, alpha=0.18, linewidth=0)
+ax.plot(YEARS, div_vals, color=PAL_DIV, linewidth=2.8)
+ax.axhline(0, color='#333333', linewidth=1)
+
+ax.set_title('CESI–WTI Divergence Over Time', fontsize=17,
+             fontweight='bold', loc='left', pad=14, color='#111111')
+ax.set_ylabel('CESI − WTI (normalised, 1980 = 100)', fontsize=13, fontweight='bold')
+ax.set_xlim(1980, 2023)
+ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
+ax.tick_params(labelsize=11)
+ax.grid(True, which='major', axis='y', alpha=0.18, linewidth=0.8)
+for spine in ('top', 'right'):
+    ax.spines[spine].set_visible(False)
+
+fig2.tight_layout()
+_save(fig2, 'CESI_WTI_divergence')
+plt.close(fig2)
+
+
+# ── Figure 3: CESI components ──────────────────────────────────
+fig3, ax = plt.subplots(figsize=(11, 6))
+fig3.patch.set_facecolor('white')
+ax.set_facecolor('white')
+
+ax.plot(YEARS, [EROI_norm[y] for y in YEARS], color=PAL_EROI, linewidth=3.0,
+        label='EROI (supply quality)')
+ax.plot(YEARS, [RP_norm[y]   for y in YEARS], color=PAL_RP,   linewidth=3.0,
+        label='Reserves-to-production')
+ax.plot(YEARS, [E_norm[y]    for y in YEARS], color=PAL_DEMAND, linewidth=3.0,
+        label='Energy demand')
+ax.axhline(100, color='#888888', linewidth=0.8, linestyle='--', alpha=0.6)
+
+ax.set_title('Decomposition of Energy System Stress', fontsize=17,
+             fontweight='bold', loc='left', pad=14, color='#111111')
+ax.set_ylabel('Component (1980 = 100)', fontsize=13, fontweight='bold')
+ax.set_xlim(1980, 2023)
+ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
+ax.tick_params(labelsize=11)
+ax.grid(True, which='major', axis='y', alpha=0.18, linewidth=0.8)
+for spine in ('top', 'right'):
+    ax.spines[spine].set_visible(False)
+ax.legend(fontsize=11, loc='upper left', frameon=False)
+
+fig3.tight_layout()
+_save(fig3, 'CESI_decomposition')
+plt.close(fig3)
+
+print('Saved: CESI_vs_WTI.png, CESI_WTI_divergence.png, CESI_decomposition.png')
+
+
+# ================================================================
+# LEGACY 4-panel dashboard (kept for internal validation records)
 # ================================================================
 fig = plt.figure(figsize=(20, 24))
 gs = fig.add_gridspec(5, 1, height_ratios=[1.5, 1, 1, 0.9, 0.05], hspace=0.32)
