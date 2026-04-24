@@ -1,6 +1,17 @@
-# CESI: Civilisational Energy Stress Index
+# Energy Stress Index (CESI)
 
-A thermodynamic decomposition of long-run energy-system constraint into three mechanisms: EROI (energy return on energy invested), reserves-to-production, and aggregate demand. Designed for mechanism isolation and counterfactual analysis on the 1980–2023 sample, with causal-isolation projections to 2050.
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+![Paper: CC--BY--4.0](https://img.shields.io/badge/Paper-CC--BY--4.0-lightgrey)
+![Release](https://img.shields.io/github/v/release/nayaladitya/energy-stress-index?include_prereleases)
+
+CESI (Civilisational Energy Stress Index) is a framework that separates long-run energy constraint into three components: EROI, reserves-to-production, and demand. It is designed for mechanism analysis, not prediction.
+
+## Why this matters
+
+The usual debate about long-run energy is framed as *how much oil is left*. CESI reframes it as *how much energy must be spent to get the next unit of energy out*. That shift, from resource scarcity to extraction efficiency, changes which mechanism looks binding and changes what a useful policy question looks like.
+
+![CESI, 1980–2023](paper/figures/CESI_backtest.png)
 
 ## Results at a glance
 
@@ -19,9 +30,9 @@ Under baseline assumptions, declining EROI accounts for approximately **88%** of
 
 ## What this is not
 
-- **Not a forecasting model.** It produces regime-boundary signals, not point estimates beyond the historical operating envelope. Projections past ~2035 under non-benign scenarios exit the 1980–2023 envelope and are reported as regime labels, not quantities.
-- **Not a tradable signal.** |ρ| < 0.12 against WTI, energy equities, gold, and S&P 500 at monthly frequency across all leads and lags (Test 3, Section 8).
-- **Not a statistically superior predictor.** Primary energy consumption and labour productivity match or beat CESI on standard fit criteria. The framework's contribution is mechanism *separability*, not prediction (Section 11).
+- **Not a forecasting model.** Past ~2035 under non-benign scenarios, CESI exits the 1980–2023 envelope and is reported as a regime label, not a point estimate.
+- **Not a tradable signal.** |ρ| < 0.12 against WTI, energy equities, gold, and S&P 500 across all monthly leads and lags (Section 8).
+- **Not a statistically superior predictor.** Primary energy and labour productivity match or beat CESI on standard fit criteria. The contribution is mechanism *separability*, not prediction (Section 11).
 
 ## Repository layout
 
@@ -67,7 +78,7 @@ Outputs are written to `results/`. Random seeds are fixed where stochastic steps
 
 ## Limitations
 
-- **EROI series uncertainty.** The civilisational-scale EROI step function (25 → 22 → 18 → 16 → 15 → 12 → 10 → 9) is drawn from the published literature (Cleveland 2005; Hall et al. 2009; Murphy & Hall 2010; Lambert et al. 2014) and carries methodological uncertainty not reflected in CESI's headline numerics.
+- **EROI series uncertainty.** The civilisational-scale EROI step function (25 → 22 → 18 → 16 → 15 → 12 → 10 → 9) is drawn from the published literature (Cleveland 2005; Hall et al. 2009; Murphy & Hall 2010; Lambert et al. 2014) and carries methodological uncertainty not reflected in the headline numerics.
 - **Threshold choices.** The supply-side thresholds (R/P = 20 years, EROI = 7) are model choices, not physical identities. Perturbing the EROI threshold from 7 to 5 or 9 materially changes the projected supply-side penalty.
 - **Time-trend confounding.** CESI carries monotonic trend information that partial-correlation controls (global GDP, US M2) do not fully remove. A portion of its raw co-movement with stress indicators is attributable to shared trend rather than to causal linkage.
 - **Out-of-envelope behaviour.** Projections past approximately 2035 under any non-benign scenario lie outside the 1980–2023 operating envelope. The paper reports these as regime labels rather than point estimates.
