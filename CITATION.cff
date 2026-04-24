@@ -3,8 +3,9 @@ title: "CESI — Civilisational Energy Stress Index"
 message: "If you use this work, please cite both the software release and the accompanying paper."
 type: software
 authors:
-  - family-names: "<your surname>"
-    given-names: "<your given name>"
+  - family-names: "Nayal"
+    given-names: "Aditya"
+    email: "nayaladitya03@gmail.com"
 repository-code: "https://github.com/<username>/cesi"
 license: MIT
 version: "1.0.0"
